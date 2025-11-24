@@ -9,40 +9,40 @@ import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
-    question: "Posso ter direito a revisão do meu benefício?",
+    question: "A harmonização orofacial é segura?",
     answer:
-      "Sim! Muitos benefícios do INSS contêm erros de cálculo. Se você recebe aposentadoria, auxílio-doença ou outro benefício há mais de um ano, pode haver direito a revisão. Verificamos períodos não computados, salários de contribuição incorretos e aplicação de regras antigas que podem aumentar seu benefício. A revisão pode gerar diferenças retroativas de até 10 anos.",
-    cta: "Verifique seu caso",
+      "Absolutamente! A harmonização orrofacial é um procedimento seguro quando realizado por um profissional especializado e qualificado. Utilizo técnicas modernas, produtos de alta qualidade e sigo todos os protocolos de segurança. Cada procedimento é personalizado após uma avaliação detalhada do seu perfil facial, garantindo resultados naturais e harmoniosos. Sua segurança e bem-estar são minha prioridade número um.",
+    cta: "Agende sua consulta",
   },
   {
-    question: "Qual a diferença entre auxílio-doença e aposentadoria por invalidez?",
+    question: "Quanto tempo dura o resultado da harmonização orofacial?",
     answer:
-      "O auxílio-doença é concedido quando você está temporariamente incapaz de trabalhar, com previsão de retorno. Já a aposentadoria por invalidez é para incapacidade permanente, sem possibilidade de reabilitação. Ambos exigem perícia médica do INSS, mas os critérios de avaliação são diferentes. É fundamental apresentar documentação médica completa para aumentar as chances de aprovação.",
-    cta: "Entenda melhor",
+      "Os resultados da harmonização orofacial variam conforme o procedimento realizado. Preenchimentos faciais podem durar de 12 a 18 meses, enquanto procedimentos como facetas em porcelana são permanentes. Durante a consulta gratuita, explico detalhadamente a durabilidade de cada procedimento e criamos um plano personalizado para manter seus resultados sempre impecáveis. O importante é que você se sinta confiante e radiante todos os dias.",
+    cta: "Saiba mais",
   },
   {
-    question: "Trabalhadores rurais têm direitos diferentes?",
+    question: "Qual a diferença entre facetas em resina e porcelana?",
     answer:
-      "Sim! Trabalhadores rurais têm regras especiais e mais favoráveis. A comprovação da atividade rural pode ser feita por documentos como contratos de arrendamento, notas fiscais de venda de produção, declarações de sindicato, entre outros. Não é necessário ter contribuído formalmente ao INSS durante todo o período - a comprovação da atividade rural já garante o direito. Muitos trabalhadores rurais não sabem desses direitos e ficam sem benefícios que lhes são devidos.",
-    cta: "Verifique sua situação",
+      "As facetas em resina são ideais para transformações rápidas e eficazes, podendo ser feitas em uma ou poucas sessões. São mais acessíveis e oferecem resultados imediatos. Já as facetas em porcelana são a opção premium, com durabilidade excepcional de até 15 anos ou mais, resistência superior e aparência ainda mais natural. Durante nossa consulta, avaliamos qual opção é melhor para seus objetivos, orçamento e estilo de vida.",
+    cta: "Veja qual é ideal para você",
   },
   {
-    question: "Como funciona o salário-maternidade para autônomas?",
+    question: "O clareamento dental dói?",
     answer:
-      "Trabalhadoras autônomas, MEIs e contribuintes individuais têm direito ao salário-maternidade, desde que estejam contribuindo para o INSS. O benefício é de 120 dias e o valor depende da média das contribuições. Mesmo desempregadas podem ter direito, se estiverem no período de graça (mantendo a qualidade de segurado). O pedido deve ser feito após o parto ou adoção, diretamente no INSS ou com auxílio jurídico para evitar negativas indevidas.",
-    cta: "Consulte-me",
+      "O clareamento dental profissional que realizo é seguro e confortável. Utilizo técnicas modernas que minimizam qualquer sensibilidade. Algumas pacientes podem sentir leve sensibilidade temporária, mas isso é completamente normal e passa rapidamente. Os resultados são impressionantes - dentes até 8 tons mais brancos, realçando seu sorriso naturalmente. Você terá um sorriso radiante que reflete toda sua energia e confiança.",
+    cta: "Transforme seu sorriso",
   },
   {
-    question: "O INSS pode cometer erros nos cálculos?",
+    question: "Como funciona a primeira consulta?",
     answer:
-      "Sim, e é muito comum! Os erros incluem: não considerar todos os salários de contribuição, aplicar regras incorretas de transição, ignorar períodos especiais (insalubridade, periculosidade), calcular incorretamente tempo rural, não aplicar direito adquirido a regras antigas mais favoráveis. Estima-se que mais de 30% dos benefícios previdenciários contenham algum tipo de erro. Por isso a revisão é tão importante - pode aumentar seu benefício significativamente e gerar valores retroativos.",
-    cta: "Analise seu benefício",
+      "A primeira consulta é totalmente gratuita e sem compromisso! É um momento especial onde nos conhecemos, você compartilha seus objetivos e sonhos, e eu faço uma avaliação completa do seu perfil. Juntas, criamos um plano personalizado que realça sua beleza natural. Não há pressão - é um espaço acolhedor onde você pode tirar todas suas dúvidas e se sentir completamente à vontade. Sua jornada de transformação começa com confiança e segurança.",
+    cta: "Agende sua consulta gratuita",
   },
   {
-    question: "Como faço para agendar uma consulta?",
+    question: "Os procedimentos são dolorosos?",
     answer:
-      "É muito simples! Você pode entrar em contato comigo pelo WhatsApp (63) 9 8403-1161 ou por email. Na primeira consulta, vou entender seu caso, analisar sua documentação e apresentar as melhores estratégias jurídicas para resolver sua situação. O atendimento é personalizado e toda comunicação é mantida em sigilo profissional. Respondo a todos os contatos em até 24 horas.",
-    cta: "Agende agora",
+      "Todos os procedimentos são realizados com anestesia local quando necessário, garantindo máximo conforto. Minha prioridade é que você se sinta relaxada e segura durante todo o processo. Muitas pacientes relatam que o procedimento é mais tranquilo do que imaginavam. O ambiente é acolhedor, e estou sempre ao seu lado para garantir que tudo seja feito com cuidado e atenção aos seus sentimentos.",
+    cta: "Converse comigo",
   },
 ];
 
@@ -58,11 +58,11 @@ const FAQ = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Perguntas{" "}
+            Dúvidas{" "}
             <span className="text-gradient-primary">Frequentes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tire suas dúvidas sobre direitos previdenciários
+            Tire suas dúvidas sobre harmonização orofacial e procedimentos estéticos. Estou aqui para te ajudar em cada passo da sua transformação.
           </p>
         </motion.div>
 
@@ -92,11 +92,10 @@ const FAQ = () => {
                     asChild
                   >
                     <a
-                      href="https://wa.me/5563984031161"
+                      href={`https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros. Tenho uma dúvida sobre: ${faq.question}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bi bi-whatsapp mr-2 text-base"></i>
                       {faq.cta}
                     </a>
                   </Button>
@@ -114,7 +113,7 @@ const FAQ = () => {
           className="text-center mt-12"
         >
           <p className="text-muted-foreground mb-4">
-            Não encontrou sua dúvida? Fale diretamente comigo.
+            Não encontrou sua dúvida? Estou aqui para te ajudar em cada passo da sua jornada de transformação.
           </p>
           <Button
             size="lg"
@@ -122,12 +121,11 @@ const FAQ = () => {
             asChild
           >
             <a
-              href="https://wa.me/5563984031161"
+              href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bi bi-whatsapp mr-2 text-lg"></i>
-              Entre em Contato
+              Agendar Consulta Gratuita
             </a>
           </Button>
         </motion.div>

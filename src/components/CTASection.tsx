@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Mail, Shield } from "lucide-react";
+import { Sparkles, Heart } from "lucide-react";
 
 const CTASection = () => {
   return (
@@ -19,13 +19,18 @@ const CTASection = () => {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center space-y-8"
         >
+          <div className="flex justify-center mb-4">
+            <div className="p-4 bg-primary/10 rounded-full">
+              <Sparkles className="w-8 h-8 text-primary" />
+            </div>
+          </div>
+
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-foreground">
-            Não Deixe Seus Direitos Para Depois
+            Sua Jornada de Transformação Começa Agora
           </h2>
 
           <p className="text-xl text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-            Cada dia de espera pode significar direitos perdidos.
-            Receba orientação jurídica especializada AGORA.
+            Não espere mais para se sentir confiante e poderosa. Cada dia que passa é uma oportunidade perdida de se amar completamente. Sua melhor versão está esperando por você.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
@@ -39,12 +44,12 @@ const CTASection = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5563984031161"
+                  href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-whatsapp mr-2 text-xl"></i>
-                  Agende Uma Consulta
+                  <Heart className="mr-2 h-6 w-6" />
+                  Agendar Minha Consulta Gratuita
                 </a>
               </Button>
             </motion.div>
@@ -57,12 +62,11 @@ const CTASection = () => {
                 size="lg"
                 variant="outline"
                 className="border-2 border-primary/50 text-foreground hover:bg-primary/10 text-lg px-8 py-6"
-                asChild
+                onClick={() => {
+                  document.getElementById("transformacoes")?.scrollIntoView({ behavior: "smooth" });
+                }}
               >
-                <a href="mailto:contato@deboramacedo.adv.br">
-                  <Mail className="mr-2 h-6 w-6" />
-                  Envie um Email
-                </a>
+                Ver Transformações Reais
               </Button>
             </motion.div>
           </div>
@@ -75,10 +79,10 @@ const CTASection = () => {
             className="pt-8 space-y-2"
           >
             <p className="text-sm text-muted-foreground">
-              Primeira consulta inclui orientação estratégica sobre seu caso específico.
+              ✨ Primeira consulta totalmente gratuita e sem compromisso
             </p>
             <p className="text-sm text-muted-foreground font-semibold">
-              Discrição garantida. Resposta em até 24h.
+              💎 Ambiente acolhedor e seguro. Resultados que transformam vidas.
             </p>
           </motion.div>
         </motion.div>

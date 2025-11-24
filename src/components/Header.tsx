@@ -57,14 +57,14 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 border-2 border-primary/30 flex items-center justify-center">
-              <span className="text-lg md:text-xl font-bold"><span className="text-primary-rose-premium">DM</span></span>
+              <span className="text-lg md:text-xl font-bold"><span className="text-primary-rose-premium">V</span></span>
             </div>
             <div className="hidden md:block">
               <p className="text-base font-bold text-foreground leading-tight">
-                Dra. Débora Macedo
+                Dra. Vitória Medeiros
               </p>
               <p className="text-xs text-muted-foreground">
-                Advocacia Previdenciária
+                Harmonização Orofacial
               </p>
             </div>
           </div>
@@ -72,34 +72,28 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <button
-              onClick={() => scrollToSection("home")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              Home
-            </button>
-            <button
-              onClick={() => scrollToSection("especialidades")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              Especialidades
-            </button>
-            <button
               onClick={() => scrollToSection("sobre")}
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               Sobre
             </button>
             <button
+              onClick={() => scrollToSection("procedimentos")}
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Procedimentos
+            </button>
+            <button
+              onClick={() => scrollToSection("transformacoes")}
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
+              Transformações
+            </button>
+            <button
               onClick={() => scrollToSection("depoimentos")}
               className="text-sm font-medium text-foreground hover:text-primary transition-colors"
             >
               Depoimentos
-            </button>
-            <button
-              onClick={() => scrollToSection("faq")}
-              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-            >
-              FAQ
             </button>
           </nav>
 
@@ -110,12 +104,11 @@ const Header = () => {
               asChild
             >
               <a
-                href="https://wa.me/5563984031161"
+                href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bi bi-whatsapp mr-2 text-base"></i>
-                Contato
+                Agende Sua Transformação
               </a>
             </Button>
           </div>
@@ -138,22 +131,22 @@ const Header = () => {
           <div className="lg:hidden py-4 border-t border-primary/20">
             <nav className="flex flex-col space-y-4">
               <button
-                onClick={() => scrollToSection("home")}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors text-left"
-              >
-                Home
-              </button>
-              <button
-                onClick={() => scrollToSection("especialidades")}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors text-left"
-              >
-                Especialidades
-              </button>
-              <button
                 onClick={() => scrollToSection("sobre")}
                 className="text-sm font-medium text-foreground hover:text-primary transition-colors text-left"
               >
                 Sobre
+              </button>
+              <button
+                onClick={() => scrollToSection("procedimentos")}
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors text-left"
+              >
+                Procedimentos
+              </button>
+              <button
+                onClick={() => scrollToSection("transformacoes")}
+                className="text-sm font-medium text-foreground hover:text-primary transition-colors text-left"
+              >
+                Transformações
               </button>
               <button
                 onClick={() => scrollToSection("depoimentos")}
@@ -161,23 +154,16 @@ const Header = () => {
               >
                 Depoimentos
               </button>
-              <button
-                onClick={() => scrollToSection("faq")}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors text-left"
-              >
-                FAQ
-              </button>
               <Button
                 className="bg-primary hover:bg-primary/90 text-primary-foreground w-full button-rose-premium"
                 asChild
               >
                 <a
-                  href="https://wa.me/5563984031161"
+                  href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-whatsapp mr-2 text-base"></i>
-                  Contato
+                  Agende Sua Transformação
                 </a>
               </Button>
             </nav>

@@ -1,24 +1,25 @@
-import { Instagram, Mail, Phone, MapPin, Scale } from "lucide-react";
+import { Instagram, Mail, Phone, MapPin, Facebook, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="bg-primary-dark text-primary-foreground">
       <div className="container mx-auto px-6 lg:px-12 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Scale className="w-6 h-6 text-primary" />
+              <div className="w-8 h-8 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center">
+                <span className="text-lg font-bold text-primary">V</span>
+              </div>
               <div>
-                <h3 className="text-xl font-bold">Dra. Débora Macedo</h3>
+                <h3 className="text-xl font-bold">Dra. Vitória Medeiros</h3>
                 <p className="text-sm text-primary-foreground/70">
-                  Advocacia Previdenciária
+                  Harmonização Orofacial
                 </p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
-              Especialista em direitos previdenciários.
-              Transformando injustiças em justiça.
+              Especialista dedicada a transformar sorrisos e devolver a confiança que cada mulher merece. Sua jornada de amor próprio começa aqui.
             </p>
           </div>
 
@@ -26,14 +27,6 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href="#home"
-                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
-                >
-                  Home
-                </a>
-              </li>
               <li>
                 <a
                   href="#sobre"
@@ -44,18 +37,26 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#especialidades"
+                  href="#procedimentos"
                   className="text-primary-foreground/70 hover:text-primary smooth-transition"
                 >
-                  Especialidades
+                  Procedimentos
                 </a>
               </li>
               <li>
                 <a
-                  href="#faq"
+                  href="#transformacoes"
                   className="text-primary-foreground/70 hover:text-primary smooth-transition"
                 >
-                  FAQ
+                  Transformações
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#depoimentos"
+                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
+                >
+                  Depoimentos
                 </a>
               </li>
               <li>
@@ -75,65 +76,63 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://instagram.com/advdeboramacedo"
+                  href="https://instagram.com/dra.vitoriamedeiross"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary smooth-transition"
                 >
                   <Instagram className="w-5 h-5" />
-                  <span className="text-sm">@advdeboramacedo</span>
+                  <span className="text-sm">@dra.vitoriamedeiross</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="https://wa.me/5563984031161"
+                  href="https://facebook.com/dravitoriamedeiross"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary smooth-transition"
                 >
-                  <Phone className="w-5 h-5" />
-                  <span className="text-sm">(63) 9 8403-1161</span>
+                  <Facebook className="w-5 h-5" />
+                  <span className="text-sm">Facebook</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:contato@deboramacedo.adv.br"
+                  href="https://youtube.com/@dravitoriamedeiross"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary smooth-transition"
                 >
-                  <Mail className="w-5 h-5" />
-                  <span className="text-sm">Email</span>
+                  <Youtube className="w-5 h-5" />
+                  <span className="text-sm">YouTube</span>
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Localização */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Localização</h4>
-            <div className="space-y-3 text-sm text-primary-foreground/70">
-              <div className="flex items-start gap-2">
-                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <p>
-                  Atendimento em Fortaleza, CE
-                  <br />
-                  Agendamentos via WhatsApp
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
             <p>
-              © 2025 Dra. Débora Macedo - Advocacia Previdenciária. Todos os
-              direitos reservados.
+              © 2025 Dra. Vitória Medeiros. Todos os direitos reservados.
             </p>
-            <p className="flex items-center gap-1">
-              Desenvolvido com <Scale className="w-4 h-4 text-primary" /> e
-              comprometimento com a justiça
-            </p>
+            <div className="flex items-center gap-4">
+              <a
+                href="#"
+                className="text-primary-foreground/60 hover:text-primary smooth-transition"
+              >
+                Política de Privacidade
+              </a>
+              <span>|</span>
+              <a
+                href="#"
+                className="text-primary-foreground/60 hover:text-primary smooth-transition"
+              >
+                Termos de Uso
+              </a>
+            </div>
           </div>
         </div>
       </div>

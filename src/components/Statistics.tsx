@@ -3,28 +3,22 @@ import { useRef, useEffect, useState } from "react";
 
 const stats = [
   {
-    value: 17,
+    value: 500,
     suffix: "+",
-    label: "Anos",
-    sublabel: "Dedicados ao Direito Previdenciário",
+    label: "Sorrisos Transformados",
+    sublabel: "Mulheres que recuperaram sua confiança",
   },
   {
-    value: 5311,
-    suffix: "",
-    label: "Seguidores",
-    sublabel: "Que Confiam em Minha Orientação",
-  },
-  {
-    value: 300,
+    value: 5,
     suffix: "+",
-    label: "Posts",
-    sublabel: "Educando Sobre Direitos",
+    label: "Anos de Experiência",
+    sublabel: "Dedicados à harmonização orofacial",
   },
   {
-    value: 100,
+    value: 98,
     suffix: "%",
-    label: "Centenas de Vidas",
-    sublabel: "Transformadas pela Justiça",
+    label: "Satisfação",
+    sublabel: "Pacientes satisfeitas com os resultados",
   },
 ];
 
@@ -82,7 +76,7 @@ const Statistics = () => {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={index}

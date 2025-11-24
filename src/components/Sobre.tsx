@@ -3,10 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Award, Users, FileText, TrendingUp } from "lucide-react";
 
 const stats = [
-  { icon: Award, value: "17+", label: "Anos de Atuação" },
-  { icon: Users, value: "5.311+", label: "Seguidores" },
-  { icon: FileText, value: "300+", label: "Posts Educativos" },
-  { icon: TrendingUp, value: "100%", label: "Comprometimento" },
+  { icon: Award, value: "5+", label: "Anos de Experiência" },
+  { icon: Users, value: "500+", label: "Pacientes" },
+  { icon: TrendingUp, value: "98%", label: "Satisfação" },
 ];
 
 const Sobre = () => {
@@ -23,10 +22,10 @@ const Sobre = () => {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <div className="aspect-[3/4] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+              <div className="aspect-[3/4] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center rounded-2xl overflow-hidden">
                 <img
-                  src="/debora-adv/adv-debora-2-seção.jpg"
-                  alt="Dra. Débora Macedo"
+                  src="/vitoria-d/foto-vitoria-secao2.jpg"
+                  alt="Dra. Vitória Medeiros"
                   className="w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -68,33 +67,41 @@ const Sobre = () => {
           >
             <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-3 md:mb-4">
-                Quem é a{" "}
-                <span className="text-gradient-primary">Dra. Débora?</span>
+                Conheça a{" "}
+                <span className="text-gradient-primary">Dra. Vitória</span>
               </h2>
             </div>
 
             <div className="space-y-3 md:space-y-4 text-muted-foreground leading-relaxed text-sm sm:text-base">
               <p>
-                Advogada previdenciária com <strong className="text-foreground">17 anos de atuação</strong>.
-                Minha missão é simples: evidenciar a beleza da justiça,
-                tornando direitos compreensíveis e acessíveis a quem
-                realmente precisa.
+                Minha missão vai além de transformar sorrisos — é sobre devolver a confiança que cada mulher merece sentir. Acredito que a beleza começa quando você se ama, e meu trabalho é ajudá-la a encontrar essa versão mais segura e poderosa de si mesma.
               </p>
 
               <p>
-                O direito previdenciário é complexo, mas não precisa ser caótico.
-                Aqui, você recebe orientação clara, estratégica e humanizada.
+                Com especialização em harmonização orofacial e anos dedicados ao empoderamento feminino, criei um espaço acolhedor onde cada procedimento é personalizado para realçar sua singularidade natural.
               </p>
+            </div>
 
-              <p>
-                Sou casada com <a href="https://instagram.com/engdiogomoura" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent smooth-transition">@engdiogomoura</a>, 
-                mãe da Laura e do Miguel. Acredito que <strong className="text-foreground">conhecimento é poder</strong> - 
-                e estou aqui para empoderar você com informação jurídica de qualidade.
-              </p>
-
-              <p className="text-base md:text-lg font-semibold text-foreground pt-3 md:pt-4">
-                Transformo injustiças em vitórias.
-              </p>
+            <div className="pt-4 space-y-2">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Qualificações:</h3>
+              <ul className="space-y-2 text-sm sm:text-base text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Especialista em Harmonização Orofacial</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Formação continuada em estética dental avançada</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Dedicada ao empoderamento feminino</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Mais de 500 pacientes transformadas</span>
+                </li>
+              </ul>
             </div>
 
             <div className="pt-6">
@@ -104,14 +111,22 @@ const Sobre = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5563984031161"
+                  href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-whatsapp mr-2 text-lg"></i>
-                  Fale Comigo
+                  Agendar Consulta Gratuita
                 </a>
               </Button>
+            </div>
+            
+            {/* Floating Card */}
+            <div className="mt-6 inline-block">
+              <div className="bg-primary/10 border border-primary/30 rounded-lg px-4 py-3 backdrop-blur-sm">
+                <p className="text-sm font-semibold text-foreground">
+                  98% Pacientes Satisfeitas
+                </p>
+              </div>
             </div>
           </motion.div>
         </div>

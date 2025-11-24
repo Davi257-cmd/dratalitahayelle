@@ -27,7 +27,7 @@ const Hero = () => {
               className="inline-block"
             >
               <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold border border-primary/20">
-                17 Anos de Experiência
+                Especialista em Harmonização Orofacial
               </span>
             </motion.div>
 
@@ -37,8 +37,8 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight break-words"
             >
-              Enfrentando Injustiças do{" "}
-              <span className="text-gradient-primary">INSS</span>
+              Sua Melhor Versão Começa com{" "}
+              <span className="text-gradient-primary">Sua Segurança</span>
             </motion.h1>
 
             <motion.p
@@ -47,18 +47,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg sm:text-xl text-muted-foreground leading-relaxed break-words"
             >
-              Se o INSS errou, temos o caminho certo para corrigir.
-            </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.6 }}
-              className="text-sm sm:text-base text-muted-foreground break-words"
-            >
-              Especialista em Direito Previdenciário com atuação comprovada em
-              auxílio-doença, BPC, revisões de benefícios e aposentadorias.
-              Soluções jurídicas que transformam vidas.
+              Harmonização Orofacial Personalizada que realça sua beleza natural e te devolve a confiança que você merece. Porque quando você se ama, tudo muda.
             </motion.p>
 
             <motion.div
@@ -73,12 +62,11 @@ const Hero = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5563984031161"
+                  href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-whatsapp mr-2 text-lg"></i>
-                  Agende uma Consulta
+                  Começar Minha Jornada
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
@@ -87,10 +75,10 @@ const Hero = () => {
                 variant="outline"
                 className="border-primary/30 hover:bg-primary/5"
                 onClick={() => {
-                  document.getElementById("depoimentos")?.scrollIntoView({ behavior: "smooth" });
+                  document.getElementById("transformacoes")?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
-                Conheça Meus Casos
+                Ver Transformações
               </Button>
             </motion.div>
 
@@ -102,16 +90,30 @@ const Hero = () => {
               className="flex flex-wrap gap-6 sm:gap-8 pt-6 sm:pt-8 border-t border-border/50"
             >
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">5.311+</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Seguidores Confiantes</p>
+                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">500+</span></p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Sorrisos Transformados</p>
               </div>
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">300+</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Posts Educativos</p>
+                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">5</span></p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Anos de Experiência</p>
               </div>
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">100%</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Comprometimento</p>
+                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">98%</span></p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Satisfação</p>
+              </div>
+            </motion.div>
+            
+            {/* Floating Card */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8, duration: 0.6 }}
+              className="mt-6 inline-block"
+            >
+              <div className="bg-primary/10 border border-primary/30 rounded-lg px-4 py-3 backdrop-blur-sm">
+                <p className="text-sm font-semibold text-foreground">
+                  Primeira Consulta - Totalmente gratuita
+                </p>
               </div>
             </motion.div>
           </motion.div>
@@ -124,10 +126,10 @@ const Hero = () => {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <div className="aspect-[4/5] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+              <div className="aspect-[4/5] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center rounded-2xl overflow-hidden">
                 <img
-                  src="/debora-adv/adv-debora-1-seção.jpg"
-                  alt="Dra. Débora Macedo - Advocacia Previdenciária"
+                  src="/vitoria-d/foto-vitoria-secao1.jpg"
+                  alt="Dra. Vitória Medeiros - Harmonização Orofacial"
                   className="w-full h-full object-cover"
                   loading="eager"
                   decoding="async"

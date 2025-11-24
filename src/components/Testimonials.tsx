@@ -3,33 +3,33 @@ import { Marquee3D } from "@/components/Marquee3D";
 
 const testimonials = [
   {
-    name: "Maria Silva",
-    case: "Auxílio-Doença Corrigido",
-    text: "A Dra. Débora me explicou que meu benefício tinha erro no cálculo. Em 3 meses recebi a diferença retroativa. Gratidão infinita!",
+    name: "Camila Silva",
+    case: "Empresária",
+    text: "Não me reconhecia no espelho... agora me amo. A Dra. Vitória transformou não só meu sorriso, mas minha vida inteira.",
     rating: 5,
   },
   {
-    name: "João Santos",
-    case: "Aposentadoria Rural",
-    text: "Trabalhei a vida toda no campo e não sabia dos meus direitos. Com a orientação da Dra. Débora, consegui minha aposentadoria.",
+    name: "Fernanda Costa",
+    case: "Advogada",
+    text: "Senti minha autoestima voltar à vida. Cada dia me olho no espelho e sorrio, de verdade.",
     rating: 5,
   },
   {
-    name: "Ana Paula",
-    case: "BPC Aprovado",
-    text: "Meu filho com deficiência precisava do BPC. Depois de duas negativas, a Dra. Débora conseguiu a aprovação. Mudou nossa vida!",
+    name: "Beatriz Oliveira",
+    case: "Influencer",
+    text: "Que profissional sensacional e dedicada! Cuidado humanizado em cada detalhe.",
     rating: 5,
   },
   {
-    name: "Carlos Mendes",
-    case: "Revisão de Aposentadoria",
-    text: "Descobri que estava recebendo menos do que tinha direito há anos. A revisão feita pela Dra. aumentou meu benefício em 30%.",
+    name: "Larissa Martins",
+    case: "Arquiteta",
+    text: "O resultado é de deixar qualquer um de queixo caído. Investir em mim mesma foi a melhor decisão.",
     rating: 5,
   },
   {
-    name: "Fernanda Lima",
-    case: "Salário-Maternidade",
-    text: "Como MEI, não sabia que tinha direito ao salário-maternidade. A Dra. Débora me orientou e consegui receber todos os valores.",
+    name: "Paula Mendes",
+    case: "Médica",
+    text: "Dra. Vitória me devolveu meu sorriso e minha confiança. Profissional excepcional!",
     rating: 5,
   },
 ];
@@ -46,11 +46,11 @@ const Testimonials = () => {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-3 md:mb-4 px-4">
-            Histórias de{" "}
-            <span className="text-gradient-primary">Transformação</span>
+            Ouça Quem Já Se{" "}
+            <span className="text-gradient-primary">Transformou</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Vidas reais, resultados reais, justiça alcançada
+            Histórias reais de mulheres que recuperaram sua autoestima e confiança. Você também merece se sentir assim.
           </p>
         </motion.div>
 
@@ -64,17 +64,6 @@ const Testimonials = () => {
           <Marquee3D testimonials={testimonials} />
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="text-center mt-12"
-        >
-          <p className="text-muted-foreground">
-            Você também merece ter seus direitos reconhecidos
-          </p>
-        </motion.div>
       </div>
     </section>
   );
