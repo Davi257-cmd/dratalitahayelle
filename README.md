@@ -1,6 +1,6 @@
-# Dra. Débora Macedo - Landing Page
+# Dra. Vitória Medeiros - Landing Page
 
-Landing page profissional para a advocacia previdenciária da Dra. Débora Macedo.
+Landing page profissional para harmonização orofacial da Dra. Vitória Medeiros.
 
 ## 🚀 Tecnologias
 
@@ -38,8 +38,11 @@ npm run preview
 ## 📁 Estrutura do Projeto
 
 ```
-debora-lp/
-├── public/          # Arquivos estáticos (imagens, favicon)
+vitoria-dentista/
+├── public/          # Arquivos estáticos (imagens, favicon, antes-depois, instagram)
+│   ├── antes-depois/  # Imagens de transformações
+│   ├── instagram/     # Posts do Instagram
+│   └── vitoria-d/     # Fotos da Dra. Vitória
 ├── src/
 │   ├── components/  # Componentes React
 │   ├── pages/       # Páginas
@@ -54,7 +57,10 @@ debora-lp/
 - ✅ Design responsivo e moderno
 - ✅ Header com comportamento de scroll no mobile
 - ✅ Animações suaves com Framer Motion
-- ✅ Otimização de performance
+- ✅ Integração com WhatsApp para agendamentos
+- ✅ Galeria de transformações (antes/depois)
+- ✅ Feed do Instagram integrado
+- ✅ Formulário de contato funcional
 - ✅ SEO otimizado
 - ✅ Acessibilidade
 
@@ -116,6 +122,22 @@ Este projeto é privado e proprietário.
 
 ## 👤 Contato
 
-**Dra. Débora Macedo**
-- Instagram: [@advdeboramacedo](https://instagram.com/advdeboramacedo)
-- WhatsApp: [Contato](https://wa.me/5563984031161)
+**Dra. Vitória Medeiros**
+- Especialista em Harmonização Orofacial
+- Localização: Caucaia, CE
+- Instagram: [@dra.vitoriamedeiross](https://instagram.com/dra.vitoriamedeiross)
+- WhatsApp: [+55 85 98937-0159](https://wa.me/5585989370159)
+- Email: contato@dravitoriamedeiros.com
+
+## 📋 Seções da Landing Page
+
+- **Hero**: Apresentação principal com CTA
+- **Por Que Você Merece o Melhor**: Benefícios e diferenciais
+- **Procedimentos**: Harmonização Orofacial, Facetas, Clareamento
+- **Transformações**: Galeria de antes/depois
+- **Sobre**: Biografia e qualificações da Dra. Vitória
+- **Estatísticas**: Números de impacto
+- **Depoimentos**: Testimonials de pacientes
+- **Feed Instagram**: Posts recentes
+- **FAQ**: Perguntas frequentes
+- **Contato**: Formulário e informações de contato

@@ -37,19 +37,21 @@ const CTASection = () => {
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              className="w-full sm:w-auto"
             >
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl text-lg px-8 py-6 animate-glow-pulse border border-primary button-rose-premium"
+                className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl text-base sm:text-lg px-4 sm:px-8 py-4 sm:py-6 animate-glow-pulse border border-primary button-rose-premium flex items-center justify-center"
                 asChild
               >
                 <a
                   href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex items-center justify-center"
                 >
-                  <Heart className="mr-2 h-6 w-6" />
-                  Agendar Minha Consulta Gratuita
+                  <Heart className="mr-2 h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
+                  <span className="whitespace-nowrap">Agendar Minha Consulta Gratuita</span>
                 </a>
               </Button>
             </motion.div>
