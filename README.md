@@ -1,6 +1,6 @@
-# Dra. Vitória Medeiros - Landing Page
+# Dra. Talita Hayelle - Landing Page
 
-Landing page profissional para harmonização orofacial da Dra. Vitória Medeiros.
+Landing page profissional para harmonização facial da Dra. Talita Hayelle - Founder da Clínica TH Harmony.
 
 ## 🚀 Tecnologias
 
@@ -38,11 +38,11 @@ npm run preview
 ## 📁 Estrutura do Projeto
 
 ```
-vitoria-dentista/
+thalita-estetic/
 ├── public/          # Arquivos estáticos (imagens, favicon, antes-depois, instagram)
 │   ├── antes-depois/  # Imagens de transformações
 │   ├── instagram/     # Posts do Instagram
-│   └── vitoria-d/     # Fotos da Dra. Vitória
+│   └── talita-secoes/ # Fotos da Dra. Talita
 ├── src/
 │   ├── components/  # Componentes React
 │   ├── pages/       # Páginas
@@ -122,21 +122,23 @@ Este projeto é privado e proprietário.
 
 ## 👤 Contato
 
-**Dra. Vitória Medeiros**
-- Especialista em Harmonização Orofacial
-- Localização: Caucaia, CE
-- Instagram: [@dra.vitoriamedeiross](https://instagram.com/dra.vitoriamedeiross)
-- WhatsApp: [+55 85 98937-0159](https://wa.me/5585989370159)
-- Email: contato@dravitoriamedeiros.com
+**Dra. Talita Hayelle**
+- Especialista em Harmonização Facial
+- Founder da Clínica TH Harmony
+- Localização: Fortaleza & Baturité, CE
+- Instagram: [@dra.talitahayelle](https://www.instagram.com/dra.talitahayelle/)
+- Instagram Clínica: [@clinica_th.harmony](https://www.instagram.com/clinica_th.harmony/)
+- WhatsApp: [+55 85 99126-2487](https://wa.me/5585991262487)
 
 ## 📋 Seções da Landing Page
 
-- **Hero**: Apresentação principal com CTA
-- **Por Que Você Merece o Melhor**: Benefícios e diferenciais
-- **Procedimentos**: Harmonização Orofacial, Facetas, Clareamento
-- **Transformações**: Galeria de antes/depois
-- **Sobre**: Biografia e qualificações da Dra. Vitória
-- **Estatísticas**: Números de impacto
+- **Hero**: Apresentação principal com slogan "Resultados Sofisticados com Naturalidade"
+- **Por Que Você Merece Realçar Sua Beleza com Propósito**: Benefícios e diferenciais
+- **Procedimentos**: Harmonização Facial Completa, Rejuvenescimento com Propósito, Harmonização de Olhar, Escultura Facial Sensível
+- **Transformações**: Galeria de antes/depois (Cristiane, Beatriz, Marina, Lucia)
+- **O Chamado de Lapidar Talentos**: História pessoal e propósito
+- **Sobre**: Biografia e qualificações da Dra. Talita Hayelle
+- **Estatísticas**: Números que representam jornada (5.820 mulheres)
 - **Depoimentos**: Testimonials de pacientes
 - **Feed Instagram**: Posts recentes
 - **FAQ**: Perguntas frequentes
