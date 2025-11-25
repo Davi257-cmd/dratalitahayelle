@@ -9,39 +9,39 @@ import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
-    question: "O que é Harmonização Full Face?",
+    question: "O que diferencia a harmonização da simples aplicação de produtos?",
     answer:
-      "É a visão holística de todo o seu rosto. Não apenas um procedimento isolado, mas uma combinação estratégica que equilibra boca, queixo, maçã do rosto, contorno e olhar. Resultado: você, em perfeita harmonia.",
+      "Harmonização é visão. É entender seu rosto como um todo, respeitar sua história, revelar sua essência. Não é apenas injetar — é esculpir com sensibilidade e intenção.",
     cta: "Agende sua consulta",
   },
   {
-    question: "Como funciona a primeira consulta?",
+    question: "A idade dita minha aparência?",
     answer:
-      "Conversamos sobre suas histórias, seus desejos, suas inseguranças. Sem pressão. Faço uma análise completa do seu rosto e apresento um plano personalizado que revela sua melhor versão.",
+      "Não. Com os cuidados certos, é possível realçar sua beleza natural, recuperar firmeza, luminosidade e autoestima. Você controla como quer se sentir e se ver.",
     cta: "Agende sua consulta gratuita",
   },
   {
-    question: "Quanto tempo dura o resultado?",
+    question: "Como escolher os procedimentos?",
     answer:
-      "Depende do procedimento. A maioria dos resultados dura entre 3 a 12 meses. Podemos conversar sobre um plano de manutenção que se adequa ao seu estilo de vida.",
+      "Na consulta, conversamos profundamente sobre seus objetivos, suas histórias, suas expectativas. Recomendo exatamente o que vai revelar sua melhor versão mantendo sua autenticidade.",
     cta: "Saiba mais",
   },
   {
-    question: "Os procedimentos dão resultado natural?",
+    question: "Os resultados são naturais?",
     answer:
-      "Totalmente. O objetivo é revelar você — melhor, mais harmonizada, mais segura. Nunca transformar drasticamente ou criar artificialidade.",
+      "Totalmente. Meu objetivo é valorizar o que já existe de melhor em você — não mudar quem você é. Resultados sutis que transformam, equilíbrio que harmoniza.",
     cta: "Veja transformações reais",
   },
   {
-    question: "Qual procedimento escolher?",
+    question: "Quanto tempo duram os resultados?",
     answer:
-      "Por isso existe a consulta. Cada rosto é único. Durante a avaliação, vou te mostrar exatamente qual é o melhor caminho para a sua transformação.",
+      "Depende do procedimento. Conversamos sobre um plano de manutenção personalizado que se adequa ao seu estilo de vida e seus objetivos.",
     cta: "Agende sua consulta gratuita",
   },
   {
     question: "É seguro?",
     answer:
-      "Sim. Trabalho com técnicas avançadas, materiais premium e todo o cuidado que sua segurança merece. Sua confiança é minha prioridade absoluta.",
+      "Sim. Trabalho com técnicas avançadas, materiais premium e dedicação total à sua segurança. Sua confiança é minha prioridade absoluta.",
     cta: "Converse comigo",
   },
 ];
@@ -62,7 +62,7 @@ const FAQ = () => {
             <span className="text-gradient-primary">Frequentes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tire suas dúvidas sobre harmonização full face. Estou aqui para guiá-la em cada passo da sua transformação.
+            Tire suas dúvidas sobre harmonização facial. Estou aqui para guiá-la nesta jornada de revelação.
           </p>
         </motion.div>
 
@@ -92,7 +92,7 @@ const FAQ = () => {
                     asChild
                   >
                     <a
-                      href={`https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes. Tenho uma dúvida sobre: ${faq.question}`}
+                      href={`https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle. Tenho uma dúvida sobre: ${faq.question}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -113,7 +113,7 @@ const FAQ = () => {
           className="text-center mt-12"
         >
           <p className="text-muted-foreground mb-4">
-            Não encontrou sua dúvida? Estou aqui para te guiar.
+            Não encontrou sua dúvida? Estou aqui para te guiar com amor e excelência.
           </p>
           <Button
             size="lg"
@@ -121,7 +121,7 @@ const FAQ = () => {
             asChild
           >
             <a
-              href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+              href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-full"

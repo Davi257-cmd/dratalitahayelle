@@ -11,27 +11,27 @@ import { Button } from "@/components/ui/button";
 const procedures = [
   {
     icon: Sparkles,
-    title: "Harmonização Orofacial Completa",
-    subtitle: "Equilibrando e realçando toda a face",
-    description: "Técnicas avançadas que harmonizam boca, queixo, maçã do rosto e contorno. Cada procedimento pensado para criar proporções naturais que refletem sua singularidade.",
-  },
-  {
-    icon: Smile,
-    title: "Preenchimento Estratégico",
-    subtitle: "Volume que revela, não que mascara",
-    description: "Posicionamento preciso de ácido hialurônico para restaurar volume perdido e criar harmonia facial. Resultados que revelam sua melhor versão natural.",
-  },
-  {
-    icon: Gem,
-    title: "Harmonização de Sorriso",
-    subtitle: "Seu sorriso, mais confiante",
-    description: "Transformação que vai além dos dentes. Harmonizamos lábios, gengiva e proporções para criar um sorriso que reflete sua personalidade e autoestima.",
+    title: "Harmonização Facial Completa",
+    subtitle: "Revelando sua essência natural",
+    description: "Análise profunda de proporções, luz e movimento. Cada procedimento pensado para criar harmonia que reflete sua singularidade — você, só que mais radiante.",
   },
   {
     icon: Sun,
-    title: "Rejuvenescimento Full Face",
-    subtitle: "Leveza, firmeza e luminosidade",
-    description: "Combinação de procedimentos que trabalham sinergia: toxina botulínica funcional, preenchimento estratégico e estimuladores de colágeno. Resultado: você, só que melhor.",
+    title: "Rejuvenescimento com Propósito",
+    subtitle: "Recuperando firmeza, luminosidade e autoestima",
+    description: "Combinação de técnicas que trabalham em sinergia: estimuladores de colágeno, preenchimento estratégico e tratamentos que despertam a beleza que já existe. Resultados que evoluem e se sustentam naturalmente.",
+  },
+  {
+    icon: Gem,
+    title: "Harmonização de Olhar",
+    subtitle: "Transformação que começa pelos olhos",
+    description: "O olhar é a porta da alma. Procedimentos precisos que abrem, descansam e elevam seu olhar. Resultado: confiança que brilha e presença que transforma.",
+  },
+  {
+    icon: Smile,
+    title: "Escultura Facial Sensível",
+    subtitle: "Proporções que respeitam sua história",
+    description: "Trabalho preciso de contornos, definições e volumes. Cada milímetro pensado não apenas para beleza, mas para que você se reconheça — e se sinta — ainda mais extraordinária.",
   },
 ];
 
@@ -50,7 +50,7 @@ const Specialties = () => {
             Sua Beleza <span className="text-gradient-primary">Personalizada</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Harmonização Full Face que combina técnica avançada com visão holística. Porque transformar um rosto significa equilibrar tudo — e revelar a essência de quem você realmente é.
+            Procedimentos sofisticados que combinam conhecimento técnico com visão humanizada. Porque transformar um rosto significa tocar uma vida.
           </p>
         </motion.div>
 

@@ -4,29 +4,28 @@ import { useRef, useEffect, useState } from "react";
 const stats = [
   {
     type: "number",
-    value: 16.7,
-    suffix: " mil",
-    label: "Mulheres que confiam em minha transformação",
+    value: 5820,
+    suffix: "",
+    label: "Mulheres que Vivem Sua Melhor Versão",
     sublabel: "",
   },
   {
     type: "text",
-    text: "Referência em Harmonização Full Face",
-    label: "",
-    sublabel: "Brasil",
+    text: "Founder",
+    label: "Clínica TH Harmony",
+    sublabel: "",
   },
   {
-    type: "number",
-    value: 9751,
-    suffix: "",
-    label: "CRO-DF",
-    sublabel: "Cirurgiã-Dentista especializada",
+    type: "text",
+    text: "Fortaleza & Baturité",
+    label: "CE — Presença Estratégica",
+    sublabel: "",
   },
   {
     type: "number",
     value: 10,
     suffix: "+",
-    label: "Dedicada ao reconhecimento feminino com propósito",
+    label: "Dedicados ao Propósito e Excelência",
     sublabel: "anos",
   },
 ];
@@ -78,14 +77,14 @@ const Statistics = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-            Números que Representam Comprometimento
+            Números que Representam Jornada
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Resultados que falam por si. Transformações que mudaram vidas.
+            Mulheres que transformaram vidas, uma harmonização por vez.
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
@@ -93,18 +92,14 @@ const Statistics = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="text-center"
+              className="text-center flex flex-col justify-center items-center h-full min-h-[180px] sm:min-h-[200px]"
             >
-              <div className="mb-4">
+              <div className="mb-4 flex flex-col justify-center items-center flex-grow">
                 {stat.type === "number" ? (
                   <>
                     <p className="text-5xl md:text-6xl font-bold font-mono-stats mb-2">
                       <span className="text-primary-rose-premium">
-                        {stat.value === 16.7 ? (
-                          <>
-                            {stat.value} mil
-                          </>
-                        ) : stat.value < 100 ? (
+                        {stat.value < 100 ? (
                           <CountUpAnimation end={stat.value} suffix={stat.suffix || ""} />
                         ) : (
                           <>
@@ -114,18 +109,18 @@ const Statistics = () => {
                       </span>
                     </p>
                     {stat.label && (
-                      <p className="text-xl font-semibold text-foreground">
+                      <p className="text-lg md:text-xl font-semibold text-foreground text-center">
                         {stat.label}
                       </p>
                     )}
                   </>
                 ) : (
                   <>
-                    <p className="text-2xl md:text-3xl font-bold text-primary-rose-premium mb-2">
+                    <p className="text-2xl md:text-3xl font-bold text-primary-rose-premium mb-2 text-center">
                       {stat.text}
                     </p>
                     {stat.label && (
-                      <p className="text-xl font-semibold text-foreground">
+                      <p className="text-lg md:text-xl font-semibold text-foreground text-center">
                         {stat.label}
                       </p>
                     )}
@@ -133,7 +128,7 @@ const Statistics = () => {
                 )}
               </div>
               {stat.sublabel && (
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed text-center">
                   {stat.sublabel}
                 </p>
               )}

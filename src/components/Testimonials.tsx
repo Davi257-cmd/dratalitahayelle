@@ -3,33 +3,27 @@ import { Marquee3D } from "@/components/Marquee3D";
 
 const testimonials = [
   {
-    name: "Camila Silva",
-    case: "Empresária",
-    text: "Não me reconhecia no espelho... agora me amo. A Dra. Antônia transformou não só meu rosto, mas minha vida inteira.",
+    name: "Cristiane",
+    case: "42 anos",
+    text: "O brilho no meu olhar, a leveza no meu sorriso, a postura mais confiante — tudo mudou. Mas o mais importante é que me vejo e me sinto ainda mais extraordinária. Técnica e sensibilidade em cada detalhe.",
     rating: 5,
   },
   {
-    name: "Fernanda Costa",
-    case: "Advogada",
-    text: "Senti minha autoestima voltar à vida. Cada dia me olho no espelho e sorrio, de verdade.",
+    name: "Beatriz",
+    case: "38 anos",
+    text: "Não pareço diferente — pareço eu mesma, mas melhor. Minha pele ganhou vida, meu rosto ganhou harmonia. Cada resultado é tão natural que parece que sempre foi assim. Amei!",
     rating: 5,
   },
   {
-    name: "Beatriz Oliveira",
-    case: "Influencer",
-    text: "Que profissional sensacional e dedicada! Cuidado humanizado em cada detalhe.",
+    name: "Marina",
+    case: "45 anos",
+    text: "Meu olhar ganhou luz, meu rosto ganhou proporção. Resultado extraordinário que reflete dentro pra fora. Me sinto poderosa todos os dias.",
     rating: 5,
   },
   {
-    name: "Larissa Martins",
-    case: "Arquiteta",
-    text: "O resultado é de deixar qualquer um de queixo caído. Investir em mim mesma foi a melhor decisão.",
-    rating: 5,
-  },
-  {
-    name: "Paula Mendes",
-    case: "Médica",
-    text: "Dra. Antônia me devolveu minha confiança e minha melhor versão. Profissional excepcional!",
+    name: "Lucia",
+    case: "40 anos",
+    text: "Cada detalhe foi pensado com intenção. Sinto que a Dra. Talita não apenas transformou meu rosto — ela tocou minha alma. Resultado que é beleza + amor.",
     rating: 5,
   },
 ];

@@ -5,21 +5,21 @@ import { Card, CardContent } from "@/components/ui/card";
 const benefits = [
   {
     icon: Shield,
-    title: "Experiência que Reconhece Cada História",
+    title: "Excelência Não é Acaso — É Escolha Diária",
     description:
-      "De menina sonhadora a referência em harmonização full face. Cada clínica, cada viagem, cada paciente foram parte da minha construção. Hoje, cuidar de pessoas com propósito é meu legado.",
+      "Acredito que Deus concede a cada um de nós talentos únicos. Meu propósito é lapidar esses talentos todos os dias — com dedicação, disciplina e amor — para servir ao próximo com meu melhor. Excelência é constância.",
   },
   {
     icon: Sparkles,
-    title: "Transformação com Propósito",
+    title: "Técnica + Sensibilidade = Transformação de Dentro para Fora",
     description:
-      "Não é apenas sobre mudar sua aparência. É sobre resgatar sua autoestima, revelar a melhor versão que existe em você e devolver o reconhecimento que você merece.",
+      "Harmonizar não é apenas injetar produtos. É revelar — acolher histórias, resgatar essências e elevar a presença única de cada mulher. Cada ponto é pensado com intenção, cada traço é esculpido com sensibilidade e respeito por quem você é.",
   },
   {
     icon: Heart,
-    title: "Harmonização Full Face Personalizada",
+    title: "Rejuvenescimento que Valoriza, Não Que Muda",
     description:
-      "Cada rosto conta uma história única. Procedimentos que equilibram toda a face, criando harmonia natural que realça sua singularidade e te devolve a confiança.",
+      "A ciência estética evoluiu. Hoje, rejuvenescimento não significa \"mudar quem você é\", mas valorizar o que já existe de melhor em você. Resultados reais, equilíbrio, harmonia e confiança renovada.",
   },
 ];
 
@@ -35,11 +35,11 @@ const ProblemSolution = () => {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-3 md:mb-4 px-4">
-            Sua Melhor Versão Começa com{" "}
-            <span className="text-gradient-primary">Segurança</span>
+            Por Que Você Merece Realçar Sua Beleza com{" "}
+            <span className="text-gradient-primary">Propósito</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Sua jornada de transformação começa com a escolha certa. Aqui está por que você está no lugar perfeito.
+            Sua jornada começa com a escolha certa. Aqui está por que você está no lugar perfeito.
           </p>
         </motion.div>
 

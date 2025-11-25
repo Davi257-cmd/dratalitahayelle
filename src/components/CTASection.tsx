@@ -30,7 +30,7 @@ const CTASection = () => {
           </h2>
 
           <p className="text-xl text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-            Sua jornada de reconhecimento começa agora. Não espere mais para se sentir confiante, poderosa e genuinamente linda.
+            Sua jornada de revelação começa agora. Você merece se sentir bem ao se olhar no espelho todos os dias.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
@@ -45,7 +45,7 @@ const CTASection = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+                  href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full"
@@ -82,10 +82,10 @@ const CTASection = () => {
             className="pt-8 space-y-2"
           >
             <p className="text-sm text-muted-foreground">
-              ✨ Primeira consulta totalmente gratuita e sem compromisso
+              ✨ Primeira consulta personalizada e sem compromisso
             </p>
             <p className="text-sm text-muted-foreground font-semibold">
-              💎 Harmonização full face que revela sua melhor versão
+              💎 Harmonização que toca vidas, desperta essências
             </p>
           </motion.div>
         </motion.div>

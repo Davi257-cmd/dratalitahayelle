@@ -18,8 +18,8 @@ const Sobre = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="aspect-[3/4] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center rounded-2xl overflow-hidden">
                 <img
-                  src="/antonia-secoes/Antoniafernades-secao2.png"
-                  alt="Dra. Antônia Fernandes"
+                  src="/talita-secoes/talita-secao2.png"
+                  alt="Dra. Talita Hayelle"
                   className="w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -38,9 +38,9 @@ const Sobre = () => {
               >
                 <FileText className="w-4 h-4 md:w-5 md:h-5 text-primary mb-1 md:mb-2" />
                 <p className="text-xl md:text-2xl font-bold font-mono-stats mb-1">
-                  <span className="text-primary-rose-premium">16,7 mil</span>
+                  <span className="text-primary-rose-premium">5.820</span>
                 </p>
-                <p className="text-xs text-muted-foreground leading-tight">Mulheres que confiam em minha transformação</p>
+                <p className="text-xs text-muted-foreground leading-tight">Mulheres que Vivem Sua Melhor Versão</p>
               </motion.div>
             </div>
           </motion.div>
@@ -56,41 +56,33 @@ const Sobre = () => {
             <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-3 md:mb-4">
                 Conheça a{" "}
-                <span className="text-gradient-primary">Dra. Antônia Fernandes</span>
+                <span className="text-gradient-primary">Dra. Talita Hayelle</span>
               </h2>
             </div>
 
             <div className="space-y-3 md:space-y-4 text-muted-foreground leading-relaxed text-sm sm:text-base">
               <p>
-                De menina sonhadora à mulher que transformou propósito em reconhecimento.
+                Founder da Clínica TH Harmony, Dra. Talita é mais que uma profissional — é uma visionária dedicada a revelar a beleza e o propósito em cada mulher.
               </p>
 
               <p>
-                Hoje, entre as harmonizadoras mais bem pagas do país com o mesmo amor de quando comecei.
+                Minha jornada começou com a compreensão de um chamado simples: Deus me deu talentos, e meu propósito é desenvolvê-los para servir ao próximo.
               </p>
 
               <p>
-                Minha jornada não foi fácil. Trabalhei muito, atendi dezenas de pacientes por dia, mas sentia que faltava algo. Era cansativo, e mesmo com tanto esforço, o reconhecimento não vinha.
+                Cada dia, busco aprofundamento no conhecimento estético. Cada procedimento é uma oportunidade de fazer mais que mudar aparências — é tocar vidas, despertar essências, revelar a beleza que o Criador já plantou dentro de cada um.
               </p>
 
               <p>
-                Até que descobri que meu propósito real não era apenas transformar rostos — era resgatar histórias, devolver autoestima e revelar a melhor versão que existe em cada pessoa.
+                Criei a Clínica TH Harmony porque acredito que harmonização facial vai muito além de injetar produtos. É revelar — acolher histórias, resgatar essências e elevar a presença única de cada mulher.
               </p>
 
               <p>
-                Cada clínica, cada viagem, cada paciente foram parte da minha construção. E aquela mulher que rodava com uma mala cheia de sonhos hoje vive o que tanto desejava:
+                Quando técnica encontra sensibilidade, quando excelência encontra propósito, quando conhecimento encontra fé — é quando a verdadeira transformação acontece. De dentro para fora.
               </p>
 
               <p className="text-primary font-semibold">
-                ✨ Cuidar de pessoas, com propósito, amor e elegância.
-              </p>
-
-              <p>
-                Hoje, quando você chega ao meu consultório, não vem apenas buscar um procedimento estético. Você vem buscar reconhecimento, confiança e a melhor versão de si mesma.
-              </p>
-
-              <p>
-                E é com todo meu amor e experiência que vou te entregar exatamente isso.
+                Meu compromisso é simples: em cada atendimento, cada conversa, cada transformação — entregar o melhor de mim. Com dedicação, disciplina, sensibilidade e amor.
               </p>
             </div>
 
@@ -99,27 +91,31 @@ const Sobre = () => {
               <ul className="space-y-2 text-sm sm:text-base text-muted-foreground">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  <span>Cirurgiã-Dentista | CRO-DF 9751</span>
+                  <span>Especialista em Harmonização Facial</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  <span>Especialista em Harmonização Full Face</span>
+                  <span>Founder da Clínica TH Harmony</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  <span>Referência em harmonização orofacial no Brasil</span>
+                  <span>Formação continuada em técnicas avançadas de rejuvenescimento</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  <span>Formação continuada em técnicas avançadas</span>
+                  <span>Dedicação ao conhecimento profundo e excelência constante</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  <span>Dedicada ao empoderamento feminino com propósito</span>
+                  <span>Abordagem humanizada que toca vidas</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  <span>16,7 mil mulheres que tiveram sua melhor versão revelada</span>
+                  <span>5.820 mulheres que vivem sua melhor versão</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Missionária da beleza com propósito</span>
                 </li>
               </ul>
             </div>
@@ -131,7 +127,7 @@ const Sobre = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+                  href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full"

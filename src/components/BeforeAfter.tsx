@@ -4,32 +4,32 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const transformations = [
   {
-    name: "Marina, 41",
-    procedure: "Harmonização Full Face",
-    testimonial: "Sentia que tinha perdido minha essência. A Dra. Antônia não apenas transformou meu rosto — ela me devolveu a mulher que eu havia perdido. Hoje me reconheço e me amo.",
-    result: "Propósito e confiança restaurados",
-    image: "/antes-depois/antes-depois.jpg",
+    name: "Cristiane, 42",
+    procedure: "Harmonização Facial Completa",
+    testimonial: "O brilho no meu olhar, a leveza no meu sorriso, a postura mais confiante — tudo mudou. Mas o mais importante é que me vejo e me sinto ainda mais extraordinária. Técnica e sensibilidade em cada detalhe.",
+    result: "Força, delicadeza e confiança reveladas",
+    image: "/antes-depois/antes-depois-1.jpg",
   },
   {
-    name: "Jordana, 36",
-    procedure: "Preenchimento Estratégico + Harmonização Orofacial",
-    testimonial: "Resultado extraordinário. A Dra. Antônia vê além do óbvio. Transformou meu rosto inteiro com uma visão que eu não conseguia ter sozinha. Me sinto radiante e segura.",
-    result: "Equilíbrio natural e luminoso",
-    image: "/antes-depois/antes-depois-jordana.jpg",
+    name: "Beatriz, 38",
+    procedure: "Rejuvenescimento com Propósito",
+    testimonial: "Não pareço diferente — pareço eu mesma, mas melhor. Minha pele ganhou vida, meu rosto ganhou harmonia. Cada resultado é tão natural que parece que sempre foi assim. Amei!",
+    result: "Luminosidade restaurada, essência potencializada",
+    image: "/antes-depois/antes-depois-2.jpg",
   },
   {
-    name: "Raquel, 44",
-    procedure: "Rejuvenescimento Full Face",
-    testimonial: "Não parecia que tinha feito procedimentos, mas quando me olhei, vi a diferença. A Dra. Antônia tem o talento de revelar beleza sem transformar a sua identidade. Perfeito.",
-    result: "Leveza e elegância em cada traço",
-    image: "/antes-depois/antes-depois-raquel.jpg",
+    name: "Marina, 45",
+    procedure: "Harmonização de Olhar + Escultura Facial",
+    testimonial: "Meu olhar ganhou luz, meu rosto ganhou proporção. Resultado extraordinário que reflete dentro pra fora. Me sinto poderosa todos os dias.",
+    result: "Presença que transforma, confiança renovada",
+    image: "/antes-depois/antes-depois-3.jpg",
   },
   {
-    name: "Morgana, 38",
-    procedure: "Harmonização de Sorriso",
-    testimonial: "Meu sorriso é meu cartão de visitas. A Dra. Antônia entendeu isso e transformou não apenas meus dentes, mas meu rosto inteiro em harmonia. Resultado simplesmente excepcional.",
-    result: "Confiança que brilha",
-    image: "/antes-depois/antes-depois-morgana.jpg",
+    name: "Lucia, 40",
+    procedure: "Harmonização Completa",
+    testimonial: "Cada detalhe foi pensado com intenção. Sinto que a Dra. Talita não apenas transformou meu rosto — ela tocou minha alma. Resultado que é beleza + amor.",
+    result: "Ciclo que floresce",
+    image: "/antes-depois/antes-depois-4.jpg",
   },
 ];
 
@@ -48,7 +48,7 @@ const BeforeAfter = () => {
             Transformações <span className="text-gradient-primary">Reais</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Histórias de mulheres que foram resgatadas. Que tiveram sua autoestima devolvida. Que hoje se reconhecem no espelho com amor.
+            Histórias de mulheres que permitiram que a melhor versão delas fosse revelada. Que decidiram se colocar em primeiro lugar.
           </p>
         </motion.div>
 
@@ -110,7 +110,7 @@ const BeforeAfter = () => {
             Você Poderia Ser a Próxima Transformação
           </p>
           <p className="text-base text-muted-foreground mb-6">
-            Sua jornada de reconhecimento começa agora. Não espere mais para se sentir confiante, poderosa e genuinamente linda.
+            Sua jornada de revelação começa agora. Você merece se sentir bem ao se olhar no espelho todos os dias.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
@@ -118,14 +118,14 @@ const BeforeAfter = () => {
               className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
               asChild
             >
-              <a
-                href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-full"
-              >
-                Agendar Minha Consulta Gratuita
-              </a>
+                <a
+                  href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center w-full"
+                >
+                  Agendar Minha Consulta Gratuita
+                </a>
             </Button>
             <Button
               size="lg"

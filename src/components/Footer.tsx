@@ -12,17 +12,17 @@ const Footer = () => {
                 <span className="text-lg font-bold text-primary">V</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Dra. Antônia Fernandes</h3>
+                <h3 className="text-xl font-bold">Dra. Talita Hayelle</h3>
                 <p className="text-sm text-muted-foreground">
-                  Harmonização Orofacial Full Face | Brasília, DF
+                  Harmonização Facial | Fortaleza & Baturité, CE
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  Cirurgiã-Dentista | CRO-DF 9751
+                  Founder - Clínica TH Harmony
                 </p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              De menina sonhadora a referência em harmonização full face. Especialista dedicada a transformar rostos e resgatar histórias, devolvendo autoestima, confiança e reconhecimento. Cuidado com propósito, amor e elegância.
+              Resultados Sofisticados com Naturalidade. Harmonização facial que toca vidas, desperta essências e revela a beleza que o Criador já plantou dentro de cada um. Excelência, propósito, fé e amor em cada atendimento.
             </p>
           </div>
 
@@ -79,13 +79,24 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://instagram.com/draantonia"
+                  href="https://www.instagram.com/dra.talitahayelle/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
                 >
                   <Instagram className="w-5 h-5" />
-                  <span className="text-sm">@draantonia</span>
+                  <span className="text-sm">@dra.talitahayelle</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/clinica_th.harmony/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
+                >
+                  <Instagram className="w-5 h-5" />
+                  <span className="text-sm">@clinica_th.harmony</span>
                 </a>
               </li>
             </ul>
@@ -97,7 +108,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
             <p>
-              © 2025 Dra. Antônia Fernandes. Todos os direitos reservados.
+              © 2025 Dra. Talita Hayelle. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-4">
               <a

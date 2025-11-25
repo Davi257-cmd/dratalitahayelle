@@ -5,10 +5,12 @@ import { Marquee } from "@/components/ui/marquee";
 
 // Instagram posts - imagens e vídeos
 const instagramPosts = [
-  { type: "image", src: "/instagram/572136897_18545781985027419_3990351588015008429_n.jpg" },
-  { type: "video", src: "/instagram/AQMWHI_LuZyqN2EQDWpMFuL0BdgVvlvvuiSSDFTkhV5ZV6aBYHpXvVFGZdRlIrSvte-Ite_mWDKLAUzMTId_qvO29nshkB_wCf_WZNY.mp4" },
-  { type: "video", src: "/instagram/AQNjR_I4wKeM7W8QrYQEBPqQ8plGxTL7eQddWEfKpYa-FNr94s_5gu7Q-Lw1E3xeI-mvzF1x_PpDER_IJkHEPKGX81vEiKjM3UrPRG0.mp4" },
-  { type: "image", src: "/instagram/582090474_18550162048027419_8645523504777579545_n.jpg" },
+  { type: "image", src: "/instagram/SaveGram.App_477373747_18261940363284526_7838184275127183858_n.jpg" },
+  { type: "video", src: "/instagram/SaveGram.App_AQMxXE7tcT4wuvvml7gnZKTp7wF9hjsV35uIFhOtUWwaEV-Pe5a0k3fWs4tpfnL658R5q0a2urQIPA8nXxcRfrcz9hupyvWV9Z8zhyE.mp4" },
+  { type: "video", src: "/instagram/SaveGram.App_AQOhUl82CNET-i-reRiS4Orja96qSXYZ3NHMn-oHUyo9yq-mCAs82qpQabF2ILlJF9ZZTImj7ODiGVgYK8kQnLbB5Hv0o4IN8VGKY4w.mp4" },
+  { type: "image", src: "/instagram/SaveGram.App_470217943_18255175867284526_738418700544209048_n.jpg" },
+  { type: "video", src: "/instagram/SaveGram.App_AQNNd4R-gPimr1v7duA6XJu53z1qPoH71xTV5tgQqrLvMG1HWKa03prj-0q_xTniVWuzJJ3KdUBMOh8PQYDt3NywYSvScK7QUufy4LQ.mp4" },
+  { type: "video", src: "/instagram/SaveGram.App_AQOBxbGwzb98cOQ7dhJJMHhdWI9nngmuIB9uE0MO_w4ZJH4Hqq1rPOKSfLD8hzPK2q4v5mF9r4k9QO3pDSanLyuPS0LlKMqgQ9ICVKE.mp4" },
 ];
 
 const InstagramPost = ({ post, index }: { post: typeof instagramPosts[0]; index: number }) => {
@@ -89,13 +91,13 @@ const InstagramFeed = () => {
             asChild
           >
             <a
-              href="https://instagram.com/draantonia"
+              href="https://www.instagram.com/dra.talitahayelle/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-full"
             >
               <Instagram className="mr-2 h-5 w-5" />
-              Siga @draantonia
+              Siga @dra.talitahayelle
             </a>
           </Button>
         </motion.div>

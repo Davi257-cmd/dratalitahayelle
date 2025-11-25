@@ -57,14 +57,14 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 border-2 border-primary/30 flex items-center justify-center">
-              <span className="text-lg md:text-xl font-bold"><span className="text-primary-rose-premium">A</span></span>
+              <span className="text-lg md:text-xl font-bold"><span className="text-primary-rose-premium">T</span></span>
             </div>
             <div className="hidden md:block">
               <p className="text-base font-bold text-foreground leading-tight">
-                Dra. Antônia Fernandes
+                Dra. Talita Hayelle
               </p>
               <p className="text-xs text-muted-foreground">
-                Harmonização Full Face
+                Harmonização Facial
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Header = () => {
               asChild
             >
               <a
-                href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+                href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -159,7 +159,7 @@ const Header = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+                  href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

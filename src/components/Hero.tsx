@@ -27,7 +27,7 @@ const Hero = () => {
               className="inline-block"
             >
               <span className="px-3 py-1.5 sm:px-4 sm:py-2 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-semibold border border-primary/20 inline-block">
-                Referência em Harmonização Full Face
+                Dra. Talita Hayelle
               </span>
             </motion.div>
 
@@ -37,8 +37,8 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight break-words"
             >
-              Pronta para te entregar sua melhor{" "}
-              <span className="text-gradient-primary">Versão</span>
+              Resultados Sofisticados com{" "}
+              <span className="text-gradient-primary">Naturalidade</span>
             </motion.h1>
 
             <motion.p
@@ -47,7 +47,7 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg sm:text-xl text-muted-foreground leading-relaxed break-words"
             >
-              Harmonização Full Face que Transforma Rostos e Resgata Histórias. Porque você merece muito mais do que uma aparência melhorada — você merece reconhecer-se no espelho com amor, confiança e propósito.
+              Harmonização Facial que Revela Sua Essência. Porque você não precisa aceitar que a idade dite sua aparência — com os cuidados certos, é possível realçar sua beleza natural, recuperar firmeza, luminosidade e autoestima. Sua jornada de transformação começa aqui.
             </motion.p>
 
             <motion.div
@@ -62,7 +62,7 @@ const Hero = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+                  href="https://wa.me/5585991262487?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Talita Hayelle."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center"
@@ -91,14 +91,14 @@ const Hero = () => {
               className="flex flex-wrap gap-6 sm:gap-8 pt-6 sm:pt-8 border-t border-border/50"
             >
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">16,7 mil</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Mulheres que Confiaram em Minha Transformação</p>
+                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">5.820</span></p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Mulheres que Vivem Sua Melhor Versão</p>
               </div>
               <div>
-                <p className="text-xs sm:text-sm text-muted-foreground">Referência em Harmonização Full Face | Brasília, DF</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Founder Clínica TH Harmony | Fortaleza & Baturité, CE</p>
               </div>
               <div>
-                <p className="text-xs sm:text-sm text-muted-foreground">Cirurgiã-Dentista | CRO-DF 9751</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Resultados que Refletem Propósito e Amor ao Próximo</p>
               </div>
             </motion.div>
             
@@ -127,8 +127,8 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="aspect-[4/5] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center rounded-2xl overflow-hidden">
                 <img
-                  src="/antonia-secoes/Antoniafernades-secao1.png"
-                  alt="Dra. Antônia Fernandes - Harmonização Full Face"
+                  src="/talita-secoes/talita-secao1.png"
+                  alt="Dra. Talita Hayelle - Harmonização Facial"
                   className="w-full h-full object-cover"
                   loading="eager"
                   decoding="async"
