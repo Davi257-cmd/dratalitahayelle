@@ -1,4 +1,4 @@
-import { Instagram, Mail, Phone, MapPin, Facebook, Youtube } from "lucide-react";
+import { Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -12,14 +12,17 @@ const Footer = () => {
                 <span className="text-lg font-bold text-primary">V</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Dra. Vitória Medeiros</h3>
+                <h3 className="text-xl font-bold">Dra. Antônia Fernandes</h3>
                 <p className="text-sm text-muted-foreground">
-                  Harmonização Orofacial
+                  Harmonização Orofacial Full Face | Brasília, DF
+                </p>
+                <p className="text-sm text-muted-foreground">
+                  Cirurgiã-Dentista | CRO-DF 9751
                 </p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Especialista dedicada a transformar sorrisos e devolver a confiança que cada mulher merece. Sua jornada de amor próprio começa aqui.
+              De menina sonhadora a referência em harmonização full face. Especialista dedicada a transformar rostos e resgatar histórias, devolvendo autoestima, confiança e reconhecimento. Cuidado com propósito, amor e elegância.
             </p>
           </div>
 
@@ -76,35 +79,13 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://instagram.com/dra.vitoriamedeiross"
+                  href="https://instagram.com/draantonia"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
                 >
                   <Instagram className="w-5 h-5" />
-                  <span className="text-sm">@dra.vitoriamedeiross</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://facebook.com/dravitoriamedeiross"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
-                >
-                  <Facebook className="w-5 h-5" />
-                  <span className="text-sm">Facebook</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://youtube.com/@dravitoriamedeiross"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
-                >
-                  <Youtube className="w-5 h-5" />
-                  <span className="text-sm">YouTube</span>
+                  <span className="text-sm">@draantonia</span>
                 </a>
               </li>
             </ul>
@@ -116,7 +97,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/10 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
             <p>
-              © 2025 Dra. Vitória Medeiros. Todos os direitos reservados.
+              © 2025 Dra. Antônia Fernandes. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-4">
               <a

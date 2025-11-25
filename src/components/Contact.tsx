@@ -24,8 +24,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Aqui você pode adicionar a lógica de envio do formulário
-    const whatsappMessage = `Olá! Meu nome é ${formData.name}. Gostaria de agendar uma consulta sobre: ${formData.procedure || "Harmonização Orofacial"}. ${formData.message ? `Mensagem: ${formData.message}` : ""}`;
-    const whatsappUrl = `https://wa.me/5585989370159?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappMessage = `Olá! Meu nome é ${formData.name}. Gostaria de agendar uma consulta sobre: ${formData.procedure || "Harmonização Full Face"}. ${formData.message ? `Mensagem: ${formData.message}` : ""}`;
+    const whatsappUrl = `https://wa.me/5561999999999?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -43,7 +43,7 @@ const Contact = () => {
             Comece Sua <span className="text-gradient-primary">Transformação</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Agende sua consulta gratuita e descubra como podemos realçar sua beleza natural. Estou aqui para te ajudar.
+            Agende sua consulta gratuita e descubra como revelar sua melhor versão com harmonização full face personalizada.
           </p>
         </motion.div>
 
@@ -92,7 +92,7 @@ const Contact = () => {
                 <Input
                   id="phone"
                   type="tel"
-                  placeholder="(85) 99999-9999"
+                  placeholder="(61) 99999-9999"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   required
@@ -111,10 +111,11 @@ const Contact = () => {
                     <SelectValue placeholder="Selecione um procedimento" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="harmonizacao-orofacial">Harmonização Orofacial</SelectItem>
-                    <SelectItem value="facetas-resina">Facetas em Resina</SelectItem>
-                    <SelectItem value="facetas-porcelana">Facetas em Porcelana</SelectItem>
-                    <SelectItem value="clareamento-dental">Clareamento Dental</SelectItem>
+                    <SelectItem value="harmonizacao-full-face">Harmonização Full Face</SelectItem>
+                    <SelectItem value="harmonizacao-orofacial-completa">Harmonização Orofacial Completa</SelectItem>
+                    <SelectItem value="preenchimento-estrategico">Preenchimento Estratégico</SelectItem>
+                    <SelectItem value="harmonizacao-sorriso">Harmonização de Sorriso</SelectItem>
+                    <SelectItem value="rejuvenescimento-full-face">Rejuvenescimento Full Face</SelectItem>
                     <SelectItem value="outro">Outro</SelectItem>
                   </SelectContent>
                 </Select>
@@ -160,7 +161,7 @@ const Contact = () => {
                   Localização
                 </h3>
                 <p className="text-muted-foreground">
-                  Caucaia, CE
+                  Brasília, DF
                 </p>
               </div>
             </div>
@@ -174,12 +175,12 @@ const Contact = () => {
                   Telefone
                 </h3>
                 <a
-                  href="https://wa.me/5585989370159"
+                  href="https://wa.me/5561999999999"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-accent smooth-transition"
                 >
-                  +55 85 98937-0159
+                  WhatsApp - Agendamentos & Dúvidas
                 </a>
               </div>
             </div>
@@ -193,10 +194,10 @@ const Contact = () => {
                   E-mail
                 </h3>
                 <a
-                  href="mailto:contato@dravitoriamedeiros.com"
+                  href="mailto:contato@draantoniafernandes.com"
                   className="text-primary hover:text-accent smooth-transition"
                 >
-                  contato@dravitoriamedeiros.com
+                  contato@draantoniafernandes.com
                 </a>
               </div>
             </div>
@@ -210,12 +211,12 @@ const Contact = () => {
                   Instagram
                 </h3>
                 <a
-                  href="https://instagram.com/dra.vitoriamedeiross"
+                  href="https://instagram.com/draantonia"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-accent smooth-transition"
                 >
-                  @dra.vitoriamedeiross
+                  @draantonia
                 </a>
               </div>
             </div>
@@ -232,7 +233,7 @@ const Contact = () => {
         >
           <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl border-2 border-primary/20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2734!2d-38.6569!3d-3.7323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c3f464c783f%3A0x4661c60a0c6b37fa!2sCaucaia%2C%20CE!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.6799!2d-47.8825!3d-15.7942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a8555555555%3A0x1234567890abcdef!2sBras%C3%ADlia%2C%20DF!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -240,12 +241,12 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="w-full h-full"
-              title="Localização Dra. Vitória Medeiros - Caucaia, CE"
+              title="Localização Dra. Antônia Fernandes - Brasília, DF"
             ></iframe>
             <div className="absolute top-4 left-4 bg-background/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg border border-primary/20">
               <p className="text-sm font-semibold text-foreground flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                Caucaia, CE
+                Brasília, DF
               </p>
             </div>
           </div>

@@ -5,13 +5,10 @@ import { Marquee } from "@/components/ui/marquee";
 
 // Instagram posts - imagens e vídeos
 const instagramPosts = [
-  { type: "image", src: "/instagram/528693622_18519799144057801_8032681811423269568_n..jpg" },
-  { type: "image", src: "/instagram/571989282_18536938630057801_1712809096777771673_n..jpg" },
-  { type: "video", src: "/instagram/AQOhWsY1xbCqw4xdc4EmtI_i6vkildjLH7TjdZEBuibRbIpC-_6wdZU9MThd7egwv8ZAeQNdYd50ce0yp0xDRxSV5mDyLJAc.mp4" },
-  { type: "image", src: "/instagram/instagram_photo_20251124_215812.jpg" },
-  { type: "image", src: "/instagram/instagram_photo_20251124_215850.jpg" },
-  { type: "image", src: "/instagram/instagram_photo_20251124_215903.jpg" },
-  { type: "video", src: "/instagram/instagram_video_20251124_215900.mp4" },
+  { type: "image", src: "/instagram/572136897_18545781985027419_3990351588015008429_n.jpg" },
+  { type: "video", src: "/instagram/AQMWHI_LuZyqN2EQDWpMFuL0BdgVvlvvuiSSDFTkhV5ZV6aBYHpXvVFGZdRlIrSvte-Ite_mWDKLAUzMTId_qvO29nshkB_wCf_WZNY.mp4" },
+  { type: "video", src: "/instagram/AQNjR_I4wKeM7W8QrYQEBPqQ8plGxTL7eQddWEfKpYa-FNr94s_5gu7Q-Lw1E3xeI-mvzF1x_PpDER_IJkHEPKGX81vEiKjM3UrPRG0.mp4" },
+  { type: "image", src: "/instagram/582090474_18550162048027419_8645523504777579545_n.jpg" },
 ];
 
 const InstagramPost = ({ post, index }: { post: typeof instagramPosts[0]; index: number }) => {
@@ -88,16 +85,17 @@ const InstagramFeed = () => {
         >
           <Button
             size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
+            className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
             asChild
           >
             <a
-              href="https://instagram.com/dra.vitoriamedeiross"
+              href="https://instagram.com/draantonia"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex items-center justify-center w-full"
             >
               <Instagram className="mr-2 h-5 w-5" />
-              Siga @dra.vitoriamedeiross
+              Siga @draantonia
             </a>
           </Button>
         </motion.div>

@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Camila Silva",
     case: "Empresária",
-    text: "Não me reconhecia no espelho... agora me amo. A Dra. Vitória transformou não só meu sorriso, mas minha vida inteira.",
+    text: "Não me reconhecia no espelho... agora me amo. A Dra. Antônia transformou não só meu rosto, mas minha vida inteira.",
     rating: 5,
   },
   {
@@ -29,7 +29,7 @@ const testimonials = [
   {
     name: "Paula Mendes",
     case: "Médica",
-    text: "Dra. Vitória me devolveu meu sorriso e minha confiança. Profissional excepcional!",
+    text: "Dra. Antônia me devolveu minha confiança e minha melhor versão. Profissional excepcional!",
     rating: 5,
   },
 ];

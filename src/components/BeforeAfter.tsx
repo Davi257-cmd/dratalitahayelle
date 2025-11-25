@@ -4,32 +4,32 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const transformations = [
   {
-    name: "Ana, 34",
-    procedure: "Harmonização Orofacial",
-    testimonial: "Minha autoestima mudou completamente! A Dra. Vitória não só transformou meu rosto, mas me devolveu a confiança que eu havia perdido. Hoje me olho no espelho e me amo.",
-    result: "Resultado natural e harmonioso",
+    name: "Marina, 41",
+    procedure: "Harmonização Full Face",
+    testimonial: "Sentia que tinha perdido minha essência. A Dra. Antônia não apenas transformou meu rosto — ela me devolveu a mulher que eu havia perdido. Hoje me reconheço e me amo.",
+    result: "Propósito e confiança restaurados",
     image: "/antes-depois/antes-depois.jpg",
   },
   {
-    name: "Juliana, 28",
-    procedure: "Facetas em Porcelana",
-    testimonial: "Resultado além das minhas expectativas. Investir em mim mesma foi a melhor decisão. Cada sorriso agora é genuíno e cheio de confiança.",
-    result: "Sorriso perfeito e duradouro",
-    image: "/antes-depois/antes-depois-2.jpg",
+    name: "Jordana, 36",
+    procedure: "Preenchimento Estratégico + Harmonização Orofacial",
+    testimonial: "Resultado extraordinário. A Dra. Antônia vê além do óbvio. Transformou meu rosto inteiro com uma visão que eu não conseguia ter sozinha. Me sinto radiante e segura.",
+    result: "Equilíbrio natural e luminoso",
+    image: "/antes-depois/antes-depois-jordana.jpg",
   },
   {
-    name: "Mariana, 42",
-    procedure: "Clareamento Dental",
-    testimonial: "Sorriso radiante e natural! A Dra. Vitória é uma profissional excepcional. O cuidado e atenção aos detalhes fazem toda a diferença.",
-    result: "Dentes 8 tons mais brancos",
-    image: "/antes-depois/antes-depois-3.jpg",
+    name: "Raquel, 44",
+    procedure: "Rejuvenescimento Full Face",
+    testimonial: "Não parecia que tinha feito procedimentos, mas quando me olhei, vi a diferença. A Dra. Antônia tem o talento de revelar beleza sem transformar a sua identidade. Perfeito.",
+    result: "Leveza e elegância em cada traço",
+    image: "/antes-depois/antes-depois-raquel.jpg",
   },
   {
-    name: "Patricia, 31",
-    procedure: "Harmonização Orofacial",
-    testimonial: "Transformação incrível! A Dra. Vitória entendeu exatamente o que eu precisava. Me sinto mais confiante e poderosa todos os dias.",
-    result: "Beleza natural realçada",
-    image: "/antes-depois/antes-depois-4.jpg",
+    name: "Morgana, 38",
+    procedure: "Harmonização de Sorriso",
+    testimonial: "Meu sorriso é meu cartão de visitas. A Dra. Antônia entendeu isso e transformou não apenas meus dentes, mas meu rosto inteiro em harmonia. Resultado simplesmente excepcional.",
+    result: "Confiança que brilha",
+    image: "/antes-depois/antes-depois-morgana.jpg",
   },
 ];
 
@@ -48,7 +48,7 @@ const BeforeAfter = () => {
             Transformações <span className="text-gradient-primary">Reais</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Veja o poder da transformação. Estas são histórias reais de mulheres que recuperaram sua confiança e amor próprio.
+            Histórias de mulheres que foram resgatadas. Que tiveram sua autoestima devolvida. Que hoje se reconhecem no espelho com amor.
           </p>
         </motion.div>
 
@@ -107,21 +107,37 @@ const BeforeAfter = () => {
           className="text-center"
         >
           <p className="text-lg text-foreground mb-6 font-semibold">
-            Você poderia ser a próxima transformação
+            Você Poderia Ser a Próxima Transformação
           </p>
-          <Button
-            size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
-            asChild
-          >
-            <a
-              href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
-              target="_blank"
-              rel="noopener noreferrer"
+          <p className="text-base text-muted-foreground mb-6">
+            Sua jornada de reconhecimento começa agora. Não espere mais para se sentir confiante, poderosa e genuinamente linda.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              size="lg"
+              className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
+              asChild
             >
-              Agendar Minha Consulta Gratuita
-            </a>
-          </Button>
+              <a
+                href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center w-full"
+              >
+                Agendar Minha Consulta Gratuita
+              </a>
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="w-full sm:w-auto border-primary/30 hover:bg-primary/5"
+              onClick={() => {
+                document.getElementById("transformacoes")?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Ver Transformações Reais
+            </Button>
+          </div>
         </motion.div>
       </div>
     </section>

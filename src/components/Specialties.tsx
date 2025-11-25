@@ -11,27 +11,27 @@ import { Button } from "@/components/ui/button";
 const procedures = [
   {
     icon: Sparkles,
-    title: "Harmonização Orofacial",
-    subtitle: "Realçando a beleza natural do seu rosto",
-    description: "Técnicas avançadas para equilibrar proporções faciais, destacando sua singularidade com resultados naturais e harmoniosos.",
+    title: "Harmonização Orofacial Completa",
+    subtitle: "Equilibrando e realçando toda a face",
+    description: "Técnicas avançadas que harmonizam boca, queixo, maçã do rosto e contorno. Cada procedimento pensado para criar proporções naturais que refletem sua singularidade.",
   },
   {
     icon: Smile,
-    title: "Facetas em Resina",
-    subtitle: "Sorriso perfeito em uma ou poucas sessões",
-    description: "Transformação rápida e eficaz. Corrigimos forma, cor e alinhamento dental com resultados imediatos e naturais.",
+    title: "Preenchimento Estratégico",
+    subtitle: "Volume que revela, não que mascara",
+    description: "Posicionamento preciso de ácido hialurônico para restaurar volume perdido e criar harmonia facial. Resultados que revelam sua melhor versão natural.",
   },
   {
     icon: Gem,
-    title: "Facetas em Porcelana",
-    subtitle: "Resultado duradouro e natural",
-    description: "O que há de mais premium em estética dental. Durabilidade excepcional, resistência e beleza que permanece por anos.",
+    title: "Harmonização de Sorriso",
+    subtitle: "Seu sorriso, mais confiante",
+    description: "Transformação que vai além dos dentes. Harmonizamos lábios, gengiva e proporções para criar um sorriso que reflete sua personalidade e autoestima.",
   },
   {
     icon: Sun,
-    title: "Clareamento Dental",
-    subtitle: "Sorriso radiante que reflete sua energia",
-    description: "Clareamento profissional seguro e eficaz. Dentes até 8 tons mais brancos, realçando seu sorriso naturalmente.",
+    title: "Rejuvenescimento Full Face",
+    subtitle: "Leveza, firmeza e luminosidade",
+    description: "Combinação de procedimentos que trabalham sinergia: toxina botulínica funcional, preenchimento estratégico e estimuladores de colágeno. Resultado: você, só que melhor.",
   },
 ];
 
@@ -50,7 +50,7 @@ const Specialties = () => {
             Sua Beleza <span className="text-gradient-primary">Personalizada</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-            Procedimentos especializados para revelar a melhor versão do seu sorriso, com técnicas modernas e resultados naturais.
+            Harmonização Full Face que combina técnica avançada com visão holística. Porque transformar um rosto significa equilibrar tudo — e revelar a essência de quem você realmente é.
           </p>
         </motion.div>
 

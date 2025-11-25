@@ -26,8 +26,8 @@ const Hero = () => {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="inline-block"
             >
-              <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-semibold border border-primary/20">
-                Especialista em Harmonização Orofacial
+              <span className="px-3 py-1.5 sm:px-4 sm:py-2 bg-primary/10 text-primary rounded-full text-xs sm:text-sm font-semibold border border-primary/20 inline-block">
+                Referência em Harmonização Full Face
               </span>
             </motion.div>
 
@@ -37,8 +37,8 @@ const Hero = () => {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight break-words"
             >
-              Sua Melhor Versão Começa com{" "}
-              <span className="text-gradient-primary">Sua Segurança</span>
+              Pronta para te entregar sua melhor{" "}
+              <span className="text-gradient-primary">Versão</span>
             </motion.h1>
 
             <motion.p
@@ -47,33 +47,34 @@ const Hero = () => {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-lg sm:text-xl text-muted-foreground leading-relaxed break-words"
             >
-              Harmonização Orofacial Personalizada que realça sua beleza natural e te devolve a confiança que você merece. Porque quando você se ama, tudo muda.
+              Harmonização Full Face que Transforma Rostos e Resgata Histórias. Porque você merece muito mais do que uma aparência melhorada — você merece reconhecer-se no espelho com amor, confiança e propósito.
             </motion.p>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 0.6 }}
-              className="flex flex-col sm:flex-row gap-4 pt-4"
+              className="flex flex-col sm:flex-row gap-4 pt-4 justify-center items-center"
             >
               <Button
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg hover:shadow-glow-primary smooth-transition group button-rose-premium"
+                className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg hover:shadow-glow-primary smooth-transition group button-rose-premium"
                 asChild
               >
                 <a
-                  href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
+                  href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex items-center justify-center"
                 >
-                  Começar Minha Jornada
+                  Agendar Minha Consulta Gratuita
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary/30 hover:bg-primary/5"
+                className="w-full sm:w-auto border-primary/30 hover:bg-primary/5"
                 onClick={() => {
                   document.getElementById("transformacoes")?.scrollIntoView({ behavior: "smooth" });
                 }}
@@ -90,16 +91,14 @@ const Hero = () => {
               className="flex flex-wrap gap-6 sm:gap-8 pt-6 sm:pt-8 border-t border-border/50"
             >
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">500+</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Sorrisos Transformados</p>
+                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">16,7 mil</span></p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Mulheres que Confiaram em Minha Transformação</p>
               </div>
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">5</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Anos de Experiência</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Referência em Harmonização Full Face | Brasília, DF</p>
               </div>
               <div>
-                <p className="text-xl sm:text-2xl font-bold font-mono-stats"><span className="text-primary-rose-premium">98%</span></p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Satisfação</p>
+                <p className="text-xs sm:text-sm text-muted-foreground">Cirurgiã-Dentista | CRO-DF 9751</p>
               </div>
             </motion.div>
             
@@ -128,8 +127,8 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <div className="aspect-[4/5] bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center rounded-2xl overflow-hidden">
                 <img
-                  src="/vitoria-d/foto-vitoria-secao1.jpg"
-                  alt="Dra. Vitória Medeiros - Harmonização Orofacial"
+                  src="/antonia-secoes/Antoniafernades-secao1.png"
+                  alt="Dra. Antônia Fernandes - Harmonização Full Face"
                   className="w-full h-full object-cover"
                   loading="eager"
                   decoding="async"

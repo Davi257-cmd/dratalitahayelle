@@ -3,22 +3,31 @@ import { useRef, useEffect, useState } from "react";
 
 const stats = [
   {
-    value: 500,
-    suffix: "+",
-    label: "Sorrisos Transformados",
-    sublabel: "Mulheres que recuperaram sua confiança",
+    type: "number",
+    value: 16.7,
+    suffix: " mil",
+    label: "Mulheres que confiam em minha transformação",
+    sublabel: "",
   },
   {
-    value: 5,
-    suffix: "+",
-    label: "Anos de Experiência",
-    sublabel: "Dedicados à harmonização orofacial",
+    type: "text",
+    text: "Referência em Harmonização Full Face",
+    label: "",
+    sublabel: "Brasil",
   },
   {
-    value: 98,
-    suffix: "%",
-    label: "Satisfação",
-    sublabel: "Pacientes satisfeitas com os resultados",
+    type: "number",
+    value: 9751,
+    suffix: "",
+    label: "CRO-DF",
+    sublabel: "Cirurgiã-Dentista especializada",
+  },
+  {
+    type: "number",
+    value: 10,
+    suffix: "+",
+    label: "Dedicada ao reconhecimento feminino com propósito",
+    sublabel: "anos",
   },
 ];
 
@@ -69,14 +78,14 @@ const Statistics = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-foreground">
-            Resultados que Falam por Si
+            Números que Representam Comprometimento
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Números que representam comprometimento, confiança e transformação
+            Resultados que falam por si. Transformações que mudaram vidas.
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <motion.div
               key={index}
@@ -87,18 +96,47 @@ const Statistics = () => {
               className="text-center"
             >
               <div className="mb-4">
-                <p className="text-5xl md:text-6xl font-bold font-mono-stats mb-2">
-                  <span className="text-primary-rose-premium">
-                    <CountUpAnimation end={stat.value} suffix={stat.suffix} />
-                  </span>
-                </p>
-                <p className="text-xl font-semibold text-foreground">
-                  {stat.label}
-                </p>
+                {stat.type === "number" ? (
+                  <>
+                    <p className="text-5xl md:text-6xl font-bold font-mono-stats mb-2">
+                      <span className="text-primary-rose-premium">
+                        {stat.value === 16.7 ? (
+                          <>
+                            {stat.value} mil
+                          </>
+                        ) : stat.value < 100 ? (
+                          <CountUpAnimation end={stat.value} suffix={stat.suffix || ""} />
+                        ) : (
+                          <>
+                            {stat.value.toLocaleString('pt-BR')}{stat.suffix}
+                          </>
+                        )}
+                      </span>
+                    </p>
+                    {stat.label && (
+                      <p className="text-xl font-semibold text-foreground">
+                        {stat.label}
+                      </p>
+                    )}
+                  </>
+                ) : (
+                  <>
+                    <p className="text-2xl md:text-3xl font-bold text-primary-rose-premium mb-2">
+                      {stat.text}
+                    </p>
+                    {stat.label && (
+                      <p className="text-xl font-semibold text-foreground">
+                        {stat.label}
+                      </p>
+                    )}
+                  </>
+                )}
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {stat.sublabel}
-              </p>
+              {stat.sublabel && (
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {stat.sublabel}
+                </p>
+              )}
             </motion.div>
           ))}
         </div>

@@ -9,39 +9,39 @@ import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
-    question: "A harmonização orofacial é segura?",
+    question: "O que é Harmonização Full Face?",
     answer:
-      "Absolutamente! A harmonização orrofacial é um procedimento seguro quando realizado por um profissional especializado e qualificado. Utilizo técnicas modernas, produtos de alta qualidade e sigo todos os protocolos de segurança. Cada procedimento é personalizado após uma avaliação detalhada do seu perfil facial, garantindo resultados naturais e harmoniosos. Sua segurança e bem-estar são minha prioridade número um.",
+      "É a visão holística de todo o seu rosto. Não apenas um procedimento isolado, mas uma combinação estratégica que equilibra boca, queixo, maçã do rosto, contorno e olhar. Resultado: você, em perfeita harmonia.",
     cta: "Agende sua consulta",
-  },
-  {
-    question: "Quanto tempo dura o resultado da harmonização orofacial?",
-    answer:
-      "Os resultados da harmonização orofacial variam conforme o procedimento realizado. Preenchimentos faciais podem durar de 12 a 18 meses, enquanto procedimentos como facetas em porcelana são permanentes. Durante a consulta gratuita, explico detalhadamente a durabilidade de cada procedimento e criamos um plano personalizado para manter seus resultados sempre impecáveis. O importante é que você se sinta confiante e radiante todos os dias.",
-    cta: "Saiba mais",
-  },
-  {
-    question: "Qual a diferença entre facetas em resina e porcelana?",
-    answer:
-      "As facetas em resina são ideais para transformações rápidas e eficazes, podendo ser feitas em uma ou poucas sessões. São mais acessíveis e oferecem resultados imediatos. Já as facetas em porcelana são a opção premium, com durabilidade excepcional de até 15 anos ou mais, resistência superior e aparência ainda mais natural. Durante nossa consulta, avaliamos qual opção é melhor para seus objetivos, orçamento e estilo de vida.",
-    cta: "Veja qual é ideal para você",
-  },
-  {
-    question: "O clareamento dental dói?",
-    answer:
-      "O clareamento dental profissional que realizo é seguro e confortável. Utilizo técnicas modernas que minimizam qualquer sensibilidade. Algumas pacientes podem sentir leve sensibilidade temporária, mas isso é completamente normal e passa rapidamente. Os resultados são impressionantes - dentes até 8 tons mais brancos, realçando seu sorriso naturalmente. Você terá um sorriso radiante que reflete toda sua energia e confiança.",
-    cta: "Transforme seu sorriso",
   },
   {
     question: "Como funciona a primeira consulta?",
     answer:
-      "A primeira consulta é totalmente gratuita e sem compromisso! É um momento especial onde nos conhecemos, você compartilha seus objetivos e sonhos, e eu faço uma avaliação completa do seu perfil. Juntas, criamos um plano personalizado que realça sua beleza natural. Não há pressão - é um espaço acolhedor onde você pode tirar todas suas dúvidas e se sentir completamente à vontade. Sua jornada de transformação começa com confiança e segurança.",
+      "Conversamos sobre suas histórias, seus desejos, suas inseguranças. Sem pressão. Faço uma análise completa do seu rosto e apresento um plano personalizado que revela sua melhor versão.",
     cta: "Agende sua consulta gratuita",
   },
   {
-    question: "Os procedimentos são dolorosos?",
+    question: "Quanto tempo dura o resultado?",
     answer:
-      "Todos os procedimentos são realizados com anestesia local quando necessário, garantindo máximo conforto. Minha prioridade é que você se sinta relaxada e segura durante todo o processo. Muitas pacientes relatam que o procedimento é mais tranquilo do que imaginavam. O ambiente é acolhedor, e estou sempre ao seu lado para garantir que tudo seja feito com cuidado e atenção aos seus sentimentos.",
+      "Depende do procedimento. A maioria dos resultados dura entre 3 a 12 meses. Podemos conversar sobre um plano de manutenção que se adequa ao seu estilo de vida.",
+    cta: "Saiba mais",
+  },
+  {
+    question: "Os procedimentos dão resultado natural?",
+    answer:
+      "Totalmente. O objetivo é revelar você — melhor, mais harmonizada, mais segura. Nunca transformar drasticamente ou criar artificialidade.",
+    cta: "Veja transformações reais",
+  },
+  {
+    question: "Qual procedimento escolher?",
+    answer:
+      "Por isso existe a consulta. Cada rosto é único. Durante a avaliação, vou te mostrar exatamente qual é o melhor caminho para a sua transformação.",
+    cta: "Agende sua consulta gratuita",
+  },
+  {
+    question: "É seguro?",
+    answer:
+      "Sim. Trabalho com técnicas avançadas, materiais premium e todo o cuidado que sua segurança merece. Sua confiança é minha prioridade absoluta.",
     cta: "Converse comigo",
   },
 ];
@@ -62,7 +62,7 @@ const FAQ = () => {
             <span className="text-gradient-primary">Frequentes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Tire suas dúvidas sobre harmonização orofacial e procedimentos estéticos. Estou aqui para te ajudar em cada passo da sua transformação.
+            Tire suas dúvidas sobre harmonização full face. Estou aqui para guiá-la em cada passo da sua transformação.
           </p>
         </motion.div>
 
@@ -92,7 +92,7 @@ const FAQ = () => {
                     asChild
                   >
                     <a
-                      href={`https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros. Tenho uma dúvida sobre: ${faq.question}`}
+                      href={`https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes. Tenho uma dúvida sobre: ${faq.question}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -113,17 +113,18 @@ const FAQ = () => {
           className="text-center mt-12"
         >
           <p className="text-muted-foreground mb-4">
-            Não encontrou sua dúvida? Estou aqui para te ajudar em cada passo da sua jornada de transformação.
+            Não encontrou sua dúvida? Estou aqui para te guiar.
           </p>
           <Button
             size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
+            className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg button-rose-premium"
             asChild
           >
             <a
-              href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
+              href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
               target="_blank"
               rel="noopener noreferrer"
+              className="flex items-center justify-center w-full"
             >
               Agendar Consulta Gratuita
             </a>

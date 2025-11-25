@@ -26,14 +26,14 @@ const CTASection = () => {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-foreground">
-            Sua Jornada de Transformação Começa Agora
+            Você Poderia Ser a Próxima Transformação
           </h2>
 
           <p className="text-xl text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-            Não espere mais para se sentir confiante e poderosa. Cada dia que passa é uma oportunidade perdida de se amar completamente. Sua melhor versão está esperando por você.
+            Sua jornada de reconhecimento começa agora. Não espere mais para se sentir confiante, poderosa e genuinamente linda.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -45,10 +45,10 @@ const CTASection = () => {
                 asChild
               >
                 <a
-                  href="https://wa.me/5585989370159?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Vitória Medeiros."
+                  href="https://wa.me/5561999999999?text=Olá! Gostaria de agendar uma consulta gratuita com a Dra. Antônia Fernandes."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center"
+                  className="flex items-center justify-center w-full"
                 >
                   <Heart className="mr-2 h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0" />
                   <span className="whitespace-nowrap">Agendar Minha Consulta Gratuita</span>
@@ -59,11 +59,12 @@ const CTASection = () => {
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              className="w-full sm:w-auto"
             >
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-primary/50 text-foreground hover:bg-primary/10 text-lg px-8 py-6"
+                className="w-full sm:w-auto border-2 border-primary/50 text-foreground hover:bg-primary/10 text-lg px-8 py-6"
                 onClick={() => {
                   document.getElementById("transformacoes")?.scrollIntoView({ behavior: "smooth" });
                 }}
@@ -84,7 +85,7 @@ const CTASection = () => {
               ✨ Primeira consulta totalmente gratuita e sem compromisso
             </p>
             <p className="text-sm text-muted-foreground font-semibold">
-              💎 Ambiente acolhedor e seguro. Resultados que transformam vidas.
+              💎 Harmonização full face que revela sua melhor versão
             </p>
           </motion.div>
         </motion.div>

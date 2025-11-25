@@ -5,21 +5,21 @@ import { Card, CardContent } from "@/components/ui/card";
 const benefits = [
   {
     icon: Shield,
-    title: "Segurança Total",
+    title: "Experiência que Reconhece Cada História",
     description:
-      "Especialista com anos de experiência em harmonização orofacial. Sua confiança é minha prioridade.",
+      "De menina sonhadora a referência em harmonização full face. Cada clínica, cada viagem, cada paciente foram parte da minha construção. Hoje, cuidar de pessoas com propósito é meu legado.",
   },
   {
     icon: Sparkles,
-    title: "Resultados Personalizados",
+    title: "Transformação com Propósito",
     description:
-      "Cada rosto conta uma história única. Procedimentos sob medida que realçam sua beleza natural.",
+      "Não é apenas sobre mudar sua aparência. É sobre resgatar sua autoestima, revelar a melhor versão que existe em você e devolver o reconhecimento que você merece.",
   },
   {
     icon: Heart,
-    title: "Transformação Duradoura",
+    title: "Harmonização Full Face Personalizada",
     description:
-      "Não é apenas sobre aparência, é sobre se sentir confiante todos os dias. Resultados que permanecem.",
+      "Cada rosto conta uma história única. Procedimentos que equilibram toda a face, criando harmonia natural que realça sua singularidade e te devolve a confiança.",
   },
 ];
 
@@ -35,8 +35,8 @@ const ProblemSolution = () => {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-3 md:mb-4 px-4">
-            Por Que Você Merece o{" "}
-            <span className="text-gradient-primary">Melhor</span>
+            Sua Melhor Versão Começa com{" "}
+            <span className="text-gradient-primary">Segurança</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Sua jornada de transformação começa com a escolha certa. Aqui está por que você está no lugar perfeito.
