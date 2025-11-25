@@ -7,19 +7,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-primary/20 border-2 border-primary/30 flex items-center justify-center">
-                <span className="text-lg font-bold text-primary">V</span>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">Dra. Talita Hayelle</h3>
-                <p className="text-sm text-muted-foreground">
-                  Harmonização Facial | Fortaleza & Baturité, CE
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Founder - Clínica TH Harmony
-                </p>
-              </div>
+            <div>
+              <h3 className="text-xl font-bold mb-2">Dra. Talita Hayelle</h3>
+              <p className="text-sm text-muted-foreground mb-1">
+                Harmonização Facial | Fortaleza & Baturité, CE
+              </p>
+              <p className="text-sm text-muted-foreground mb-3">
+                Founder - Clínica TH Harmony
+              </p>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Resultados Sofisticados com Naturalidade. Harmonização facial que toca vidas, desperta essências e revela a beleza que o Criador já plantou dentro de cada um. Excelência, propósito, fé e amor em cada atendimento.

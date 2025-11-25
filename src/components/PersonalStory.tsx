@@ -45,9 +45,9 @@ const PersonalStory = () => {
               Acredito que Deus concede a cada um talentos únicos. E nosso propósito é lapidar esses talentos todos os dias — com dedicação, disciplina e amor — para servir ao próximo com o nosso melhor.
             </p>
 
-            <div className="bg-primary/10 border-l-4 border-primary rounded-lg p-6 my-6">
-              <p className="text-primary font-semibold text-lg md:text-xl flex items-start gap-2">
-                <Sparkles className="w-6 h-6 flex-shrink-0 mt-1" />
+            <div className="bg-primary/10 border-l-4 border-primary rounded-lg p-4 md:p-6 my-6">
+              <p className="text-primary font-semibold text-base sm:text-lg md:text-xl flex items-start gap-2">
+                <Sparkles className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0 mt-1" />
                 <span>Excelência não é acaso. É constância. É escolha diária. 🤍✨</span>
               </p>
             </div>

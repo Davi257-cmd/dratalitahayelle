@@ -77,11 +77,11 @@ const BeforeAfter = () => {
                   </div>
                   
                   <div className="mb-3">
-                    <h3 className="text-lg font-bold text-foreground mb-1">
+                    <h3 className="text-base sm:text-lg font-bold text-foreground mb-1">
                       {transformation.name}
                     </h3>
                     
-                    <p className="text-sm text-primary mb-2 font-semibold">
+                    <p className="text-xs sm:text-sm text-primary mb-2 font-semibold">
                       {transformation.procedure}
                     </p>
                     
@@ -90,7 +90,7 @@ const BeforeAfter = () => {
                     </p>
                   </div>
                   
-                  <p className="text-sm text-muted-foreground italic leading-relaxed flex-grow border-l-2 border-primary/30 pl-3">
+                  <p className="text-xs sm:text-sm text-muted-foreground italic leading-relaxed flex-grow border-l-2 border-primary/30 pl-3">
                     "{transformation.testimonial}"
                   </p>
                 </CardContent>

@@ -109,18 +109,18 @@ const Statistics = () => {
                       </span>
                     </p>
                     {stat.label && (
-                      <p className="text-lg md:text-xl font-semibold text-foreground text-center">
+                      <p className="text-base sm:text-lg md:text-xl font-semibold text-foreground text-center">
                         {stat.label}
                       </p>
                     )}
                   </>
                 ) : (
                   <>
-                    <p className="text-2xl md:text-3xl font-bold text-primary-rose-premium mb-2 text-center">
+                    <p className="text-xl sm:text-2xl md:text-3xl font-bold text-primary-rose-premium mb-2 text-center">
                       {stat.text}
                     </p>
                     {stat.label && (
-                      <p className="text-lg md:text-xl font-semibold text-foreground text-center">
+                      <p className="text-base sm:text-lg md:text-xl font-semibold text-foreground text-center">
                         {stat.label}
                       </p>
                     )}
